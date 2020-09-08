@@ -1,0 +1,141 @@
+;==========================================================
+;
+;
+;   ██████╗  ██████╗ ██╗  ██╗   ██╗██████╗  █████╗ ██████╗
+;   ██╔══██╗██╔═══██╗██║  ╚██╗ ██╔╝██╔══██╗██╔══██╗██╔══██╗
+;   ██████╔╝██║   ██║██║   ╚████╔╝ ██████╔╝███████║██████╔╝
+;   ██╔═══╝ ██║   ██║██║    ╚██╔╝  ██╔══██╗██╔══██║██╔══██╗
+;   ██║     ╚██████╔╝███████╗██║   ██████╔╝██║  ██║██║  ██║
+;   ╚═╝      ╚═════╝ ╚══════╝╚═╝   ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝
+;
+;
+;   To learn more about how to configure Polybar
+;   go to https://github.com/polybar/polybar
+;
+;   The README contains a lot of information
+;
+;==========================================================
+
+[colors]
+
+background = #000
+foreground = #fff
+grey = #999
+
+;  _                    
+; | |__   __ _ _ __ 
+; | '_ \ / _` | '__/
+; | |_) | (_| | |
+; |_.__/ \__,_|_|
+
+[bar/andinorielb]
+;bottom = true
+;enable-ipc = true
+
+height = 40
+width = 100%
+border-left-size = 10
+border-right-size = 10
+padding = 5
+radius-bottom = 15
+
+background = ${colors.background}
+foreground = ${colors.foreground}
+
+border-top-size = 0
+border-bottom-size = 0
+border-color = #0000
+
+line-size = 2
+
+scroll-up = i3wm-wsprev
+scroll-down = i3wm-wsnext
+wm-restack = i3
+override-redirect = false
+
+font-0 = Fira Sans:size=12;2
+font-1 = Fira Mono:size=12;2
+font-2 = Material Icons:size=15;4
+font-3 = Font Awesome 5 Free:size=12;1
+font-4 = Font Awesome 5 Free Solid:size=12;1
+font-5 = Font Awesome 5 Brands:size=12;1
+
+modules-right = xwindow time xkeyboard
+modules-left =  i3
+
+tray-position = center
+tray-padding = 5
+
+
+[settings]
+screenchange-reload = true
+pseudo-transparency = false
+
+
+[global/wm]
+margin-top = 0
+margin-bottom = 0
+
+;                      _       _           
+;  _ __ ___   ___   __| |_   _| | ___  ___ 
+; | '_ ` _ \ / _ \ / _` | | | | |/ _ \/ __|
+; | | | | | | (_) | (_| | |_| | |  __/\__ \
+; |_| |_| |_|\___/ \__,_|\__,_|_|\___||___/
+                                         
+[module/xwindow]
+type = internal/xwindow
+label = %title:0:35:...%
+label-font = 2
+format-margin = 2
+
+
+[module/xkeyboard]
+type = internal/xkeyboard
+
+label-layout = %layout%
+format-margin = 2
+format-font = 2
+
+blacklist-0 = num lock
+blacklist-1 = caps lock
+blacklist-2 = scroll lock
+
+
+[module/i3]
+type = internal/i3
+format = <label-state> <label-mode>
+format-margin = 2
+
+index-sort = true
+enable-click = true
+reverse-scroll = false
+
+label-focused = %icon% %name%
+label-focused-underline = ${colors.foreground}
+label-focused-padding = 4
+
+label-unfocused = %icon% %name%
+label-unfocused-padding = 4
+
+label-urgent = %icon% %name%
+label-urgent-padding = 4
+label-urgent-underline = ${colors.grey}
+
+ws-icon-default = 
+ws-icon-0 = 1;
+ws-icon-1 = 2;
+ws-icon-2 = 3;
+
+
+[module/time]
+type = internal/date
+interval = 1
+format-margin = 2
+
+time = %H:%M:%S
+date = %Y-%m-%d
+
+label = %time% | %date%
+label-font = 2
+label-background = ${colors.background}
+label-padding = 2
