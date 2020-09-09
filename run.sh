@@ -1,19 +1,20 @@
 #!/bin/sh
 
-data_process(){
+data_process() {
     mode=$1
     FROM=$2
     TO=$3
     if [[ "$mode" == "load" ]];
     then
-        rsync --recursive ~/$FROM $PWD/$TO
-        echo "load $FROM -> $PWD/$TO"
+        rsync --recursive $HOME/$FROM $PWD/$TO
+        echo -e "load $HOME/$FROM -> $PWD/$FROM"
     elif [[ "$mode" == "install" ]];
     then
-        rsync --recursive $PWD/$FROM ~/$TO
-        echo "install $PWD/$FROM -> ~/$TO"
+        rsync --recursive $PWD/$FROM $HOME/$TO
+        echo -e "install $PWD/$FROM -> $HOME/$FROM"
     else
-        echo "no attribute specified..."
+        echo "$1: wrong argument: must be [load|install]" >&2
+        exit 2
     fi
 }
 
@@ -32,19 +33,16 @@ process() {
     data_process $mode .gitconfig .
     data_process $mode .gtkrc-2.0 .
     data_process $mode .xinitrc .
-    data_process $mode .zsh_history .
     data_process $mode .zshrc .
 }
 
-if [[ "$1" == "load" ]];
+if [[ "$#" -eq 1 ]];
 then
-    process load
-elif [[ "$1" == "install" ]];
-then
-    process install
-else
-    echo "no attribute specified..."
-fi
+    process $1
 
-systemd-analyze plot > graph.html
-pacman -Qe > package-list.txt
+    systemd-analyze plot > graph.svf
+    pacman -Qe > package-list.txt
+else
+    echo "Usage: $0 [load|install]" >&2
+    exit 1
+fi
