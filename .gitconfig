@@ -3,3 +3,5 @@
 	email = simonnikolaj20@gmail.com
 [core]
 	editor = code --wait
+[pull]
+	ff = only

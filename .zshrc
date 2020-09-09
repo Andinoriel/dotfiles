@@ -97,3 +97,9 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+if [ "$(tty)" = "/dev/tty1" ]; then
+	export QT_QPA_PLATFORMTHEME=qt5ct
+	export QT_STYLE_OVERRIDE=kvantum
+	startx
+fi

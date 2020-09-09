@@ -11,6 +11,7 @@ blender 17:2.90.0-3
 clang 10.0.1-1
 cmake 3.18.2-1
 code 1.48.2-1
+dhcpcd 9.2.0-1
 discord 0.0.11-1
 dmenu 4.9-2
 docker 1:19.03.12-2
@@ -22,7 +23,6 @@ firefox 80.0.1-1
 flex 2.6.4-3
 gcc 10.2.0-2
 git 2.28.0-1
-github-cli-bin 0.11.1-1
 grub 2:2.04-8
 grub-customizer 5.1.0-2
 htop 3.0.1-1
@@ -41,13 +41,11 @@ linux-firmware 20200817.7a30af1-1
 lsof 4.93.2-3
 m4 1.4.18-3
 make 4.3-3
-man-db 2.9.3-1
 nano 5.2-1
 nautilus 3.36.3-1
 neofetch 7.1.0-1
 nerd-fonts-source-code-pro 2.1.0-2
 netstat-nat 1.4.10-5
-networkmanager 1.26.2-1
 ninja 1.10.1-1
 noto-fonts-cjk 20190409-2
 noto-fonts-emoji 20200720-1
