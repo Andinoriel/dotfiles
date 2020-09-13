@@ -20,6 +20,8 @@ data_process() {
 
 process() {
     mode=$1
+
+    data_process $mode .config/alacritty .config
     data_process $mode .config/dunst .config
     data_process $mode .config/gtk-3.0 .config
     data_process $mode .config/i3 .config
