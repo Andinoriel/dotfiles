@@ -21,8 +21,6 @@ assign [class="TelegramDesktop"] "3"
 assign [class="discord"] "3"
 #assign [class=""] ""
 
-# ...
-
 # Gaps
 gaps inner 12
 # smart_gaps on
@@ -203,4 +201,5 @@ bindsym $mod+Shift+g gaps inner current set 16
 # scrot
 
 bindsym Print exec "scrot /tmp/screenshot-$(date +%F_%T).png -e 'xclip -selection c -t image/png < $f'"
+bindsym $mod+Print --release exec "scrot -u /tmp/screenshot-$(date +%F_%T).png -e 'xclip -selection c -t image/png < $f'"
 bindsym $mod+Shift+S --release exec "scrot -s /tmp/screenshot-$(date +%F_%T).png -e 'xclip -selection c -t image/png < $f'"
