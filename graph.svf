@@ -1,6 +1,6 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="1160px" height="3070px" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<svg width="1252px" height="3070px" version="1.1" xmlns="http://www.w3.org/2000/svg">
 
 <!-- This file is a systemd-analyze SVG file. It is best rendered in a   -->
 <!-- browser such as Chrome, Chromium or Firefox. Other applications     -->
@@ -40,9 +40,9 @@
 </defs>
 
 <rect class="background" width="100%" height="100%" />
-<text x="20" y="50">Startup finished in 2.359s (kernel) + 3.455s (userspace) = 5.814s 
-graphical.target reached after 3.454s in userspace</text><text x="20" y="30">Arch Linux andinoriel-pc (Linux 5.8.13-arch1-1 #1 SMP PREEMPT Thu, 01 Oct 2020 20:40:35 +0000) x86-64 </text><g transform="translate(20.000,100)">
-<rect class="box" x="0" y="0" width="581.469" height="2820.000" />
+<text x="20" y="50">Startup finished in 2.538s (kernel) + 4.088s (userspace) = 6.627s 
+graphical.target reached after 4.088s in userspace</text><text x="20" y="30">Arch Linux andinoriel-pc (Linux 5.8.14-arch1-1 #1 SMP PREEMPT Wed, 07 Oct 2020 23:59:46 +0000) x86-64 </text><g transform="translate(20.000,100)">
+<rect class="box" x="0" y="0" width="662.779" height="2820.000" />
   <line class="sec5" x1="0.000" y1="0" x2="0.000" y2="2820.000" />
   <text class="sec" x="0.000" y="-5.000" >0.0s</text>
   <line class="sec01" x1="10.000" y1="0" x2="10.000" y2="2820.000" />
@@ -108,569 +108,578 @@ graphical.target reached after 3.454s in userspace</text><text x="20" y="30">Arc
   <line class="sec01" x1="560.000" y1="0" x2="560.000" y2="2820.000" />
   <line class="sec01" x1="570.000" y1="0" x2="570.000" y2="2820.000" />
   <line class="sec01" x1="580.000" y1="0" x2="580.000" y2="2820.000" />
-  <rect class="kernel" x="0.000" y="0.000" width="235.964" height="19.000" />
+  <line class="sec01" x1="590.000" y1="0" x2="590.000" y2="2820.000" />
+  <line class="sec1" x1="600.000" y1="0" x2="600.000" y2="2820.000" />
+  <text class="sec" x="600.000" y="-5.000" >6.0s</text>
+  <line class="sec01" x1="610.000" y1="0" x2="610.000" y2="2820.000" />
+  <line class="sec01" x1="620.000" y1="0" x2="620.000" y2="2820.000" />
+  <line class="sec01" x1="630.000" y1="0" x2="630.000" y2="2820.000" />
+  <line class="sec01" x1="640.000" y1="0" x2="640.000" y2="2820.000" />
+  <line class="sec01" x1="650.000" y1="0" x2="650.000" y2="2820.000" />
+  <line class="sec01" x1="660.000" y1="0" x2="660.000" y2="2820.000" />
+  <rect class="kernel" x="0.000" y="0.000" width="253.887" height="19.000" />
   <text class="left" x="5.000" y="14.000">kernel</text>
-  <rect class="active" x="235.964" y="20.000" width="345.505" height="19.000" />
-  <rect class="security" x="235.995" y="20.000" width="0.000" height="19.000" />
-  <rect class="generators" x="246.118" y="20.000" width="6.963" height="19.000" />
-  <rect class="unitsload" x="253.081" y="20.000" width="5.631" height="19.000" />
-  <text class="left" x="240.964" y="34.000">systemd</text>
-  <rect class="activating" x="258.721" y="40.000" width="0.000" height="19.000" />
-  <rect class="active" x="258.721" y="40.000" width="322.748" height="19.000" />
-  <rect class="deactivating" x="581.469" y="40.000" width="0.000" height="19.000" />
-  <text class="left" x="263.721" y="54.000">init.scope</text>
-  <rect class="activating" x="258.721" y="60.000" width="0.000" height="19.000" />
-  <rect class="active" x="258.721" y="60.000" width="322.748" height="19.000" />
-  <rect class="deactivating" x="581.469" y="60.000" width="0.000" height="19.000" />
-  <text class="left" x="263.721" y="74.000">system.slice</text>
-  <rect class="activating" x="258.721" y="80.000" width="0.000" height="19.000" />
-  <rect class="active" x="258.721" y="80.000" width="322.748" height="19.000" />
-  <rect class="deactivating" x="581.469" y="80.000" width="0.000" height="19.000" />
-  <text class="left" x="263.721" y="94.000">-.slice</text>
-  <rect class="activating" x="258.722" y="100.000" width="0.000" height="19.000" />
-  <rect class="active" x="258.722" y="100.000" width="322.747" height="19.000" />
-  <rect class="deactivating" x="581.469" y="100.000" width="0.000" height="19.000" />
-  <text class="left" x="263.722" y="114.000">-.mount</text>
-  <rect class="activating" x="259.706" y="120.000" width="0.000" height="19.000" />
-  <rect class="active" x="259.706" y="120.000" width="321.763" height="19.000" />
-  <rect class="deactivating" x="581.469" y="120.000" width="0.000" height="19.000" />
-  <text class="left" x="264.706" y="134.000">system-getty.slice</text>
-  <rect class="activating" x="259.731" y="140.000" width="0.000" height="19.000" />
-  <rect class="active" x="259.731" y="140.000" width="321.738" height="19.000" />
-  <rect class="deactivating" x="581.469" y="140.000" width="0.000" height="19.000" />
-  <text class="left" x="264.731" y="154.000">system-modprobe.slice</text>
-  <rect class="activating" x="259.756" y="160.000" width="0.000" height="19.000" />
-  <rect class="active" x="259.756" y="160.000" width="321.714" height="19.000" />
-  <rect class="deactivating" x="581.469" y="160.000" width="0.000" height="19.000" />
-  <text class="left" x="264.756" y="174.000">user.slice</text>
-  <rect class="activating" x="259.761" y="180.000" width="0.000" height="19.000" />
-  <rect class="active" x="259.761" y="180.000" width="321.708" height="19.000" />
-  <rect class="deactivating" x="581.469" y="180.000" width="0.000" height="19.000" />
-  <text class="left" x="264.761" y="194.000">systemd-ask-password-console.path</text>
-  <rect class="activating" x="259.766" y="200.000" width="0.000" height="19.000" />
-  <rect class="active" x="259.766" y="200.000" width="321.703" height="19.000" />
-  <rect class="deactivating" x="581.469" y="200.000" width="0.000" height="19.000" />
-  <text class="left" x="264.766" y="214.000">systemd-ask-password-wall.path</text>
-  <rect class="activating" x="259.782" y="220.000" width="0.000" height="19.000" />
-  <rect class="active" x="259.782" y="220.000" width="321.687" height="19.000" />
-  <rect class="deactivating" x="581.469" y="220.000" width="0.000" height="19.000" />
-  <text class="left" x="264.782" y="234.000">proc-sys-fs-binfmt_misc.automount</text>
-  <rect class="activating" x="259.786" y="240.000" width="0.000" height="19.000" />
-  <rect class="active" x="259.786" y="240.000" width="321.683" height="19.000" />
-  <rect class="deactivating" x="581.469" y="240.000" width="0.000" height="19.000" />
-  <text class="left" x="264.786" y="254.000">cryptsetup.target</text>
-  <rect class="activating" x="259.789" y="260.000" width="0.000" height="19.000" />
-  <rect class="active" x="259.789" y="260.000" width="321.680" height="19.000" />
-  <rect class="deactivating" x="581.469" y="260.000" width="0.000" height="19.000" />
-  <text class="left" x="264.789" y="274.000">paths.target</text>
-  <rect class="activating" x="259.791" y="280.000" width="0.000" height="19.000" />
-  <rect class="active" x="259.791" y="280.000" width="321.678" height="19.000" />
-  <rect class="deactivating" x="581.469" y="280.000" width="0.000" height="19.000" />
-  <text class="left" x="264.791" y="294.000">remote-fs.target</text>
-  <rect class="activating" x="259.792" y="300.000" width="0.000" height="19.000" />
-  <rect class="active" x="259.792" y="300.000" width="321.677" height="19.000" />
-  <rect class="deactivating" x="581.469" y="300.000" width="0.000" height="19.000" />
-  <text class="left" x="264.792" y="314.000">slices.target</text>
-  <rect class="activating" x="259.794" y="320.000" width="0.000" height="19.000" />
-  <rect class="active" x="259.794" y="320.000" width="321.675" height="19.000" />
-  <rect class="deactivating" x="581.469" y="320.000" width="0.000" height="19.000" />
-  <text class="left" x="264.794" y="334.000">swap.target</text>
-  <rect class="activating" x="259.800" y="340.000" width="0.000" height="19.000" />
-  <rect class="active" x="259.800" y="340.000" width="321.668" height="19.000" />
-  <rect class="deactivating" x="581.469" y="340.000" width="0.000" height="19.000" />
-  <text class="left" x="264.800" y="354.000">dm-event.socket</text>
-  <rect class="activating" x="259.863" y="360.000" width="0.000" height="19.000" />
-  <rect class="active" x="259.863" y="360.000" width="321.606" height="19.000" />
-  <rect class="deactivating" x="581.469" y="360.000" width="0.000" height="19.000" />
-  <text class="left" x="264.863" y="374.000">lvm2-lvmetad.socket</text>
-  <rect class="activating" x="259.897" y="380.000" width="0.000" height="19.000" />
-  <rect class="active" x="259.897" y="380.000" width="321.572" height="19.000" />
-  <rect class="deactivating" x="581.469" y="380.000" width="0.000" height="19.000" />
-  <text class="left" x="264.897" y="394.000">lvm2-lvmpolld.socket</text>
-  <rect class="activating" x="260.116" y="400.000" width="0.000" height="19.000" />
-  <rect class="active" x="260.116" y="400.000" width="321.353" height="19.000" />
-  <rect class="deactivating" x="581.469" y="400.000" width="0.000" height="19.000" />
-  <text class="left" x="265.116" y="414.000">systemd-coredump.socket</text>
-  <rect class="activating" x="260.128" y="420.000" width="0.000" height="19.000" />
-  <rect class="active" x="260.128" y="420.000" width="321.341" height="19.000" />
-  <rect class="deactivating" x="581.469" y="420.000" width="0.000" height="19.000" />
-  <text class="left" x="265.128" y="434.000">systemd-journald-audit.socket</text>
-  <rect class="activating" x="260.136" y="440.000" width="0.000" height="19.000" />
-  <rect class="active" x="260.136" y="440.000" width="321.333" height="19.000" />
-  <rect class="deactivating" x="581.469" y="440.000" width="0.000" height="19.000" />
-  <text class="left" x="265.136" y="454.000">systemd-journald-dev-log.socket</text>
-  <rect class="activating" x="260.145" y="460.000" width="0.000" height="19.000" />
-  <rect class="active" x="260.145" y="460.000" width="321.324" height="19.000" />
-  <rect class="deactivating" x="581.469" y="460.000" width="0.000" height="19.000" />
-  <text class="left" x="265.145" y="474.000">systemd-journald.socket</text>
-  <rect class="activating" x="260.181" y="480.000" width="0.000" height="19.000" />
-  <rect class="active" x="260.181" y="480.000" width="321.288" height="19.000" />
-  <rect class="deactivating" x="581.469" y="480.000" width="0.000" height="19.000" />
-  <text class="left" x="265.181" y="494.000">systemd-udevd-control.socket</text>
-  <rect class="activating" x="260.189" y="500.000" width="0.000" height="19.000" />
-  <rect class="active" x="260.189" y="500.000" width="321.281" height="19.000" />
-  <rect class="deactivating" x="581.469" y="500.000" width="0.000" height="19.000" />
-  <text class="left" x="265.189" y="514.000">systemd-udevd-kernel.socket</text>
-  <rect class="activating" x="260.281" y="520.000" width="1.650" height="19.000" />
-  <rect class="active" x="261.932" y="520.000" width="319.537" height="19.000" />
-  <rect class="deactivating" x="581.469" y="520.000" width="0.000" height="19.000" />
-  <text class="left" x="265.281" y="534.000">dev-hugepages.mount (16ms)</text>
-  <rect class="activating" x="260.376" y="540.000" width="1.571" height="19.000" />
-  <rect class="active" x="261.947" y="540.000" width="319.522" height="19.000" />
-  <rect class="deactivating" x="581.469" y="540.000" width="0.000" height="19.000" />
-  <text class="left" x="265.376" y="554.000">dev-mqueue.mount (15ms)</text>
-  <rect class="activating" x="260.484" y="560.000" width="1.474" height="19.000" />
-  <rect class="active" x="261.959" y="560.000" width="319.510" height="19.000" />
-  <rect class="deactivating" x="581.469" y="560.000" width="0.000" height="19.000" />
-  <text class="left" x="265.484" y="574.000">sys-kernel-debug.mount (14ms)</text>
-  <rect class="activating" x="260.585" y="580.000" width="1.385" height="19.000" />
-  <rect class="active" x="261.970" y="580.000" width="319.499" height="19.000" />
-  <rect class="deactivating" x="581.469" y="580.000" width="0.000" height="19.000" />
-  <text class="left" x="265.585" y="594.000">sys-kernel-tracing.mount (13ms)</text>
-  <rect class="activating" x="260.705" y="600.000" width="1.279" height="19.000" />
-  <rect class="active" x="261.983" y="600.000" width="319.486" height="19.000" />
-  <rect class="deactivating" x="581.469" y="600.000" width="0.000" height="19.000" />
-  <text class="left" x="265.705" y="614.000">tmp.mount (12ms)</text>
-  <rect class="activating" x="260.838" y="620.000" width="1.216" height="19.000" />
-  <rect class="active" x="262.053" y="620.000" width="319.416" height="19.000" />
-  <rect class="deactivating" x="581.469" y="620.000" width="0.000" height="19.000" />
-  <text class="left" x="265.838" y="634.000">kmod-static-nodes.service (12ms)</text>
-  <rect class="activating" x="260.944" y="640.000" width="4.642" height="19.000" />
-  <rect class="active" x="265.586" y="640.000" width="0.000" height="19.000" />
-  <rect class="deactivating" x="265.586" y="640.000" width="0.000" height="19.000" />
-  <text class="left" x="265.944" y="654.000">modprobe@drm.service (46ms)</text>
-  <rect class="activating" x="261.069" y="660.000" width="1.797" height="19.000" />
-  <rect class="active" x="262.866" y="660.000" width="318.603" height="19.000" />
-  <rect class="deactivating" x="581.469" y="660.000" width="0.000" height="19.000" />
-  <text class="left" x="266.069" y="674.000">systemd-binfmt.service (17ms)</text>
-  <rect class="activating" x="261.261" y="680.000" width="56.066" height="19.000" />
-  <rect class="active" x="317.327" y="680.000" width="264.142" height="19.000" />
-  <rect class="deactivating" x="581.469" y="680.000" width="0.000" height="19.000" />
-  <text class="left" x="266.261" y="694.000">systemd-journald.service (560ms)</text>
-  <rect class="activating" x="261.388" y="700.000" width="0.688" height="19.000" />
-  <rect class="active" x="262.076" y="700.000" width="319.393" height="19.000" />
-  <rect class="deactivating" x="581.469" y="700.000" width="0.000" height="19.000" />
-  <text class="left" x="266.388" y="714.000">sys-kernel-config.mount (6ms)</text>
-  <rect class="activating" x="261.503" y="720.000" width="3.057" height="19.000" />
-  <rect class="active" x="264.560" y="720.000" width="316.909" height="19.000" />
-  <rect class="deactivating" x="581.469" y="720.000" width="0.000" height="19.000" />
-  <text class="left" x="266.503" y="734.000">systemd-remount-fs.service (30ms)</text>
-  <rect class="activating" x="261.623" y="740.000" width="1.708" height="19.000" />
-  <rect class="active" x="263.332" y="740.000" width="318.137" height="19.000" />
-  <rect class="deactivating" x="581.469" y="740.000" width="0.000" height="19.000" />
-  <text class="left" x="266.623" y="754.000">systemd-sysctl.service (17ms)</text>
-  <rect class="activating" x="261.716" y="760.000" width="7.872" height="19.000" />
-  <rect class="active" x="269.588" y="760.000" width="311.881" height="19.000" />
-  <rect class="deactivating" x="581.469" y="760.000" width="0.000" height="19.000" />
-  <text class="left" x="266.716" y="774.000">systemd-udev-trigger.service (78ms)</text>
-  <rect class="activating" x="261.841" y="780.000" width="113.357" height="19.000" />
-  <rect class="active" x="375.198" y="780.000" width="206.271" height="19.000" />
-  <rect class="deactivating" x="581.469" y="780.000" width="0.000" height="19.000" />
-  <text class="left" x="266.841" y="794.000">dev-sda1.device (1.133s)</text>
-  <rect class="activating" x="262.222" y="800.000" width="0.347" height="19.000" />
-  <rect class="active" x="262.569" y="800.000" width="318.900" height="19.000" />
-  <rect class="deactivating" x="581.469" y="800.000" width="0.000" height="19.000" />
-  <text class="left" x="267.222" y="814.000">proc-sys-fs-binfmt_misc.mount (3ms)</text>
-  <rect class="activating" x="264.802" y="820.000" width="193.346" height="19.000" />
-  <rect class="active" x="458.148" y="820.000" width="123.321" height="19.000" />
-  <rect class="deactivating" x="581.469" y="820.000" width="0.000" height="19.000" />
-  <text class="left" x="269.802" y="834.000">systemd-random-seed.service (1.933s)</text>
-  <rect class="activating" x="264.915" y="840.000" width="3.666" height="19.000" />
-  <rect class="active" x="268.581" y="840.000" width="312.888" height="19.000" />
-  <rect class="deactivating" x="581.469" y="840.000" width="0.000" height="19.000" />
-  <text class="left" x="269.915" y="854.000">systemd-sysusers.service (36ms)</text>
-  <rect class="activating" x="268.687" y="860.000" width="1.160" height="19.000" />
-  <rect class="active" x="269.846" y="860.000" width="311.623" height="19.000" />
-  <rect class="deactivating" x="581.469" y="860.000" width="0.000" height="19.000" />
-  <text class="left" x="273.687" y="874.000">systemd-tmpfiles-setup-dev.service (11ms)</text>
-  <rect class="activating" x="269.858" y="880.000" width="0.000" height="19.000" />
-  <rect class="active" x="269.858" y="880.000" width="311.612" height="19.000" />
-  <rect class="deactivating" x="581.469" y="880.000" width="0.000" height="19.000" />
-  <text class="left" x="274.858" y="894.000">local-fs-pre.target</text>
-  <rect class="activating" x="269.987" y="900.000" width="84.435" height="19.000" />
-  <rect class="active" x="354.422" y="900.000" width="227.047" height="19.000" />
-  <rect class="deactivating" x="581.469" y="900.000" width="0.000" height="19.000" />
-  <text class="left" x="274.987" y="914.000">systemd-udevd.service (844ms)</text>
-  <rect class="activating" x="317.462" y="920.000" width="51.973" height="19.000" />
-  <rect class="active" x="369.435" y="920.000" width="212.034" height="19.000" />
-  <rect class="deactivating" x="581.469" y="920.000" width="0.000" height="19.000" />
-  <text class="left" x="322.462" y="934.000">systemd-journal-flush.service (519ms)</text>
-  <rect class="activating" x="357.496" y="940.000" width="0.000" height="19.000" />
-  <rect class="active" x="357.496" y="940.000" width="223.973" height="19.000" />
-  <rect class="deactivating" x="581.469" y="940.000" width="0.000" height="19.000" />
-  <text class="left" x="362.496" y="954.000">sys-module-configfs.device</text>
-  <rect class="activating" x="369.364" y="960.000" width="0.000" height="19.000" />
-  <rect class="active" x="369.364" y="960.000" width="212.106" height="19.000" />
-  <rect class="deactivating" x="581.469" y="960.000" width="0.000" height="19.000" />
-  <text class="left" x="374.364" y="974.000">dev-disk-by\x2dpath-pci\x2d0000:00:11.0\x2data\x2d2.device</text>
-  <rect class="activating" x="369.365" y="980.000" width="0.000" height="19.000" />
-  <rect class="active" x="369.365" y="980.000" width="212.104" height="19.000" />
-  <rect class="deactivating" x="581.469" y="980.000" width="0.000" height="19.000" />
-  <text class="left" x="374.365" y="994.000">dev-disk-by\x2dpath-pci\x2d0000:00:11.0\x2data\x2d2.0.device</text>
-  <rect class="activating" x="369.365" y="1000.000" width="0.000" height="19.000" />
-  <rect class="active" x="369.365" y="1000.000" width="212.104" height="19.000" />
-  <rect class="deactivating" x="581.469" y="1000.000" width="0.000" height="19.000" />
-  <text class="left" x="374.365" y="1014.000">dev-disk-by\x2did-ata\x2dSSDPR\x2dCX400\x2d128_GUH027664.device</text>
-  <rect class="activating" x="369.366" y="1020.000" width="0.000" height="19.000" />
-  <rect class="active" x="369.366" y="1020.000" width="212.103" height="19.000" />
-  <rect class="deactivating" x="581.469" y="1020.000" width="0.000" height="19.000" />
-  <text class="left" x="374.366" y="1034.000">dev-sdb.device</text>
-  <rect class="activating" x="369.367" y="1040.000" width="0.000" height="19.000" />
-  <rect class="active" x="369.367" y="1040.000" width="212.102" height="19.000" />
-  <rect class="deactivating" x="581.469" y="1040.000" width="0.000" height="19.000" />
-  <text class="left" x="374.367" y="1054.000">sys-devices-pci0000:00-0000:00:11.0-ata2-host1-target1:0:0-1:0:0:0-block-sdb.device</text>
-  <rect class="activating" x="369.786" y="1060.000" width="0.000" height="19.000" />
-  <rect class="active" x="369.786" y="1060.000" width="211.683" height="19.000" />
-  <rect class="deactivating" x="581.469" y="1060.000" width="0.000" height="19.000" />
-  <text class="left" x="374.786" y="1074.000">dev-disk-by\x2dpath-pci\x2d0000:00:11.0\x2data\x2d1.device</text>
-  <rect class="activating" x="369.790" y="1080.000" width="0.000" height="19.000" />
-  <rect class="active" x="369.790" y="1080.000" width="211.679" height="19.000" />
-  <rect class="deactivating" x="581.469" y="1080.000" width="0.000" height="19.000" />
-  <text class="left" x="374.790" y="1094.000">dev-disk-by\x2dpath-pci\x2d0000:00:11.0\x2data\x2d1.0.device</text>
-  <rect class="activating" x="369.790" y="1100.000" width="0.000" height="19.000" />
-  <rect class="active" x="369.790" y="1100.000" width="211.679" height="19.000" />
-  <rect class="deactivating" x="581.469" y="1100.000" width="0.000" height="19.000" />
-  <text class="left" x="374.790" y="1114.000">dev-disk-by\x2did-ata\x2dSSDPR\x2dCX400\x2d128_GUS002311.device</text>
-  <rect class="activating" x="369.791" y="1120.000" width="0.000" height="19.000" />
-  <rect class="active" x="369.791" y="1120.000" width="211.678" height="19.000" />
-  <rect class="deactivating" x="581.469" y="1120.000" width="0.000" height="19.000" />
-  <text class="left" x="374.791" y="1134.000">dev-sda.device</text>
-  <rect class="activating" x="369.792" y="1140.000" width="0.000" height="19.000" />
-  <rect class="active" x="369.792" y="1140.000" width="211.677" height="19.000" />
-  <rect class="deactivating" x="581.469" y="1140.000" width="0.000" height="19.000" />
-  <text class="left" x="374.792" y="1154.000">sys-devices-pci0000:00-0000:00:11.0-ata1-host0-target0:0:0-0:0:0:0-block-sda.device</text>
-  <rect class="activating" x="369.900" y="1160.000" width="0.000" height="19.000" />
-  <rect class="active" x="369.900" y="1160.000" width="211.569" height="19.000" />
-  <rect class="deactivating" x="581.469" y="1160.000" width="0.000" height="19.000" />
-  <text class="left" x="374.900" y="1174.000">dev-ttyS1.device</text>
-  <rect class="activating" x="369.901" y="1180.000" width="0.000" height="19.000" />
-  <rect class="active" x="369.901" y="1180.000" width="211.568" height="19.000" />
-  <rect class="deactivating" x="581.469" y="1180.000" width="0.000" height="19.000" />
-  <text class="left" x="374.901" y="1194.000">sys-devices-platform-serial8250-tty-ttyS1.device</text>
-  <rect class="activating" x="369.988" y="1200.000" width="0.000" height="19.000" />
-  <rect class="active" x="369.988" y="1200.000" width="211.481" height="19.000" />
-  <rect class="deactivating" x="581.469" y="1200.000" width="0.000" height="19.000" />
-  <text class="left" x="374.988" y="1214.000">dev-ttyS3.device</text>
-  <rect class="activating" x="369.989" y="1220.000" width="0.000" height="19.000" />
-  <rect class="active" x="369.989" y="1220.000" width="211.480" height="19.000" />
-  <rect class="deactivating" x="581.469" y="1220.000" width="0.000" height="19.000" />
-  <text class="left" x="374.989" y="1234.000">sys-devices-platform-serial8250-tty-ttyS3.device</text>
-  <rect class="activating" x="370.169" y="1240.000" width="0.000" height="19.000" />
-  <rect class="active" x="370.169" y="1240.000" width="211.300" height="19.000" />
-  <rect class="deactivating" x="581.469" y="1240.000" width="0.000" height="19.000" />
-  <text class="left" x="375.169" y="1254.000">dev-ttyS2.device</text>
-  <rect class="activating" x="370.170" y="1260.000" width="0.000" height="19.000" />
-  <rect class="active" x="370.170" y="1260.000" width="211.299" height="19.000" />
-  <rect class="deactivating" x="581.469" y="1260.000" width="0.000" height="19.000" />
-  <text class="left" x="375.170" y="1274.000">sys-devices-platform-serial8250-tty-ttyS2.device</text>
-  <rect class="activating" x="370.290" y="1280.000" width="0.000" height="19.000" />
-  <rect class="active" x="370.290" y="1280.000" width="211.179" height="19.000" />
-  <rect class="deactivating" x="581.469" y="1280.000" width="0.000" height="19.000" />
-  <text class="left" x="375.290" y="1294.000">dev-ttyS0.device</text>
-  <rect class="activating" x="370.290" y="1300.000" width="0.000" height="19.000" />
-  <rect class="active" x="370.290" y="1300.000" width="211.179" height="19.000" />
-  <rect class="deactivating" x="581.469" y="1300.000" width="0.000" height="19.000" />
-  <text class="left" x="375.290" y="1314.000">sys-devices-pnp0-00:03-tty-ttyS0.device</text>
-  <rect class="activating" x="370.856" y="1320.000" width="0.000" height="19.000" />
-  <rect class="active" x="370.856" y="1320.000" width="210.613" height="19.000" />
-  <rect class="deactivating" x="581.469" y="1320.000" width="0.000" height="19.000" />
-  <text class="left" x="375.856" y="1334.000">dev-disk-by\x2dpath-pci\x2d0000:00:11.0\x2data\x2d3.0.device</text>
-  <rect class="activating" x="370.857" y="1340.000" width="0.000" height="19.000" />
-  <rect class="active" x="370.857" y="1340.000" width="210.612" height="19.000" />
-  <rect class="deactivating" x="581.469" y="1340.000" width="0.000" height="19.000" />
-  <text class="left" x="375.857" y="1354.000">dev-disk-by\x2dpath-pci\x2d0000:00:11.0\x2data\x2d3.device</text>
-  <rect class="activating" x="370.858" y="1360.000" width="0.000" height="19.000" />
-  <rect class="active" x="370.858" y="1360.000" width="210.611" height="19.000" />
-  <rect class="deactivating" x="581.469" y="1360.000" width="0.000" height="19.000" />
-  <text class="left" x="375.858" y="1374.000">dev-disk-by\x2did-ata\x2dSSDPR\x2dCL100\x2d480\x2dG2_GV8056983.device</text>
-  <rect class="activating" x="370.859" y="1380.000" width="0.000" height="19.000" />
-  <rect class="active" x="370.859" y="1380.000" width="210.610" height="19.000" />
-  <rect class="deactivating" x="581.469" y="1380.000" width="0.000" height="19.000" />
-  <text class="left" x="375.859" y="1394.000">dev-disk-by\x2did-wwn\x2d0x502b2a201d1c1b1a.device</text>
-  <rect class="activating" x="370.860" y="1400.000" width="0.000" height="19.000" />
-  <rect class="active" x="370.860" y="1400.000" width="210.609" height="19.000" />
-  <rect class="deactivating" x="581.469" y="1400.000" width="0.000" height="19.000" />
-  <text class="left" x="375.860" y="1414.000">dev-sdc.device</text>
-  <rect class="activating" x="370.860" y="1420.000" width="0.000" height="19.000" />
-  <rect class="active" x="370.860" y="1420.000" width="210.609" height="19.000" />
-  <rect class="deactivating" x="581.469" y="1420.000" width="0.000" height="19.000" />
-  <text class="left" x="375.860" y="1434.000">sys-devices-pci0000:00-0000:00:11.0-ata3-host2-target2:0:0-2:0:0:0-block-sdc.device</text>
-  <rect class="activating" x="372.468" y="1440.000" width="0.000" height="19.000" />
-  <rect class="active" x="372.468" y="1440.000" width="209.001" height="19.000" />
-  <rect class="deactivating" x="581.469" y="1440.000" width="0.000" height="19.000" />
-  <text class="left" x="377.468" y="1454.000">dev-disk-by\x2dpath-pci\x2d0000:00:11.0\x2data\x2d2.0\x2dpart2.device</text>
-  <rect class="activating" x="372.469" y="1460.000" width="0.000" height="19.000" />
-  <rect class="active" x="372.469" y="1460.000" width="209.000" height="19.000" />
-  <rect class="deactivating" x="581.469" y="1460.000" width="0.000" height="19.000" />
-  <text class="left" x="377.469" y="1474.000">dev-disk-by\x2dpath-pci\x2d0000:00:11.0\x2data\x2d2\x2dpart2.device</text>
-  <rect class="activating" x="372.470" y="1480.000" width="0.000" height="19.000" />
-  <rect class="active" x="372.470" y="1480.000" width="208.999" height="19.000" />
-  <rect class="deactivating" x="581.469" y="1480.000" width="0.000" height="19.000" />
-  <text class="left" x="377.470" y="1494.000">dev-disk-by\x2duuid-7A6412E36412A1C5.device</text>
-  <rect class="activating" x="372.471" y="1500.000" width="0.000" height="19.000" />
-  <rect class="active" x="372.471" y="1500.000" width="208.998" height="19.000" />
-  <rect class="deactivating" x="581.469" y="1500.000" width="0.000" height="19.000" />
-  <text class="left" x="377.471" y="1514.000">dev-disk-by\x2dpartuuid-3dea354c\x2d02.device</text>
-  <rect class="activating" x="372.472" y="1520.000" width="0.000" height="19.000" />
-  <rect class="active" x="372.472" y="1520.000" width="208.997" height="19.000" />
-  <rect class="deactivating" x="581.469" y="1520.000" width="0.000" height="19.000" />
-  <text class="left" x="377.472" y="1534.000">dev-disk-by\x2did-ata\x2dSSDPR\x2dCX400\x2d128_GUH027664\x2dpart2.device</text>
-  <rect class="activating" x="372.472" y="1540.000" width="0.000" height="19.000" />
-  <rect class="active" x="372.472" y="1540.000" width="208.997" height="19.000" />
-  <rect class="deactivating" x="581.469" y="1540.000" width="0.000" height="19.000" />
-  <text class="left" x="377.472" y="1554.000">dev-sdb2.device</text>
-  <rect class="activating" x="372.478" y="1560.000" width="0.000" height="19.000" />
-  <rect class="active" x="372.478" y="1560.000" width="208.992" height="19.000" />
-  <rect class="deactivating" x="581.469" y="1560.000" width="0.000" height="19.000" />
-  <text class="left" x="377.478" y="1574.000">sys-devices-pci0000:00-0000:00:11.0-ata2-host1-target1:0:0-1:0:0:0-block-sdb-sdb2.device</text>
-  <rect class="activating" x="372.599" y="1580.000" width="27.386" height="19.000" />
-  <rect class="active" x="399.985" y="1580.000" width="181.484" height="19.000" />
-  <rect class="deactivating" x="581.469" y="1580.000" width="0.000" height="19.000" />
-  <text class="left" x="377.599" y="1594.000">home-andinoriel-.storage-c.mount (273ms)</text>
-  <rect class="activating" x="373.361" y="1600.000" width="0.000" height="19.000" />
-  <rect class="active" x="373.361" y="1600.000" width="208.108" height="19.000" />
-  <rect class="deactivating" x="581.469" y="1600.000" width="0.000" height="19.000" />
-  <text class="left" x="378.361" y="1614.000">dev-disk-by\x2dpartuuid-c1968b9d\x2d01.device</text>
-  <rect class="activating" x="373.362" y="1620.000" width="0.000" height="19.000" />
-  <rect class="active" x="373.362" y="1620.000" width="208.107" height="19.000" />
-  <rect class="deactivating" x="581.469" y="1620.000" width="0.000" height="19.000" />
-  <text class="left" x="378.362" y="1634.000">dev-disk-by\x2dlabel-Local\x5cx20Disk.device</text>
-  <rect class="activating" x="373.362" y="1640.000" width="0.000" height="19.000" />
-  <rect class="active" x="373.362" y="1640.000" width="208.107" height="19.000" />
-  <rect class="deactivating" x="581.469" y="1640.000" width="0.000" height="19.000" />
-  <text class="left" x="378.362" y="1654.000">dev-disk-by\x2dpath-pci\x2d0000:00:11.0\x2data\x2d3\x2dpart1.device</text>
-  <rect class="activating" x="373.363" y="1660.000" width="0.000" height="19.000" />
-  <rect class="active" x="373.363" y="1660.000" width="208.106" height="19.000" />
-  <rect class="deactivating" x="581.469" y="1660.000" width="0.000" height="19.000" />
-  <text class="left" x="378.363" y="1674.000">dev-disk-by\x2did-wwn\x2d0x502b2a201d1c1b1a\x2dpart1.device</text>
-  <rect class="activating" x="373.364" y="1680.000" width="0.000" height="19.000" />
-  <rect class="active" x="373.364" y="1680.000" width="208.105" height="19.000" />
-  <rect class="deactivating" x="581.469" y="1680.000" width="0.000" height="19.000" />
-  <text class="left" x="378.364" y="1694.000">dev-disk-by\x2dpath-pci\x2d0000:00:11.0\x2data\x2d3.0\x2dpart1.device</text>
-  <rect class="activating" x="373.364" y="1700.000" width="0.000" height="19.000" />
-  <rect class="active" x="373.364" y="1700.000" width="208.105" height="19.000" />
-  <rect class="deactivating" x="581.469" y="1700.000" width="0.000" height="19.000" />
-  <text class="left" x="378.364" y="1714.000">dev-disk-by\x2did-ata\x2dSSDPR\x2dCL100\x2d480\x2dG2_GV8056983\x2dpart1.device</text>
-  <rect class="activating" x="373.365" y="1720.000" width="0.000" height="19.000" />
-  <rect class="active" x="373.365" y="1720.000" width="208.104" height="19.000" />
-  <rect class="deactivating" x="581.469" y="1720.000" width="0.000" height="19.000" />
-  <text class="left" x="378.365" y="1734.000">dev-disk-by\x2duuid-207EA3E97EA3B5C6.device</text>
-  <rect class="activating" x="373.366" y="1740.000" width="0.000" height="19.000" />
-  <rect class="active" x="373.366" y="1740.000" width="208.103" height="19.000" />
-  <rect class="deactivating" x="581.469" y="1740.000" width="0.000" height="19.000" />
-  <text class="left" x="378.366" y="1754.000">dev-sdc1.device</text>
-  <rect class="activating" x="373.386" y="1760.000" width="0.000" height="19.000" />
-  <rect class="active" x="373.386" y="1760.000" width="208.083" height="19.000" />
-  <rect class="deactivating" x="581.469" y="1760.000" width="0.000" height="19.000" />
-  <text class="left" x="378.386" y="1774.000">sys-devices-pci0000:00-0000:00:11.0-ata3-host2-target2:0:0-2:0:0:0-block-sdc-sdc1.device</text>
-  <rect class="activating" x="373.520" y="1780.000" width="30.578" height="19.000" />
-  <rect class="active" x="404.097" y="1780.000" width="177.372" height="19.000" />
-  <rect class="deactivating" x="581.469" y="1780.000" width="0.000" height="19.000" />
-  <text class="left" x="378.520" y="1794.000">home-andinoriel-.storage-d.mount (305ms)</text>
-  <rect class="activating" x="375.194" y="1800.000" width="0.000" height="19.000" />
-  <rect class="active" x="375.194" y="1800.000" width="206.275" height="19.000" />
-  <rect class="deactivating" x="581.469" y="1800.000" width="0.000" height="19.000" />
-  <text class="left" x="380.194" y="1814.000">dev-disk-by\x2dpath-pci\x2d0000:00:11.0\x2data\x2d1\x2dpart1.device</text>
-  <rect class="activating" x="375.195" y="1820.000" width="0.000" height="19.000" />
-  <rect class="active" x="375.195" y="1820.000" width="206.274" height="19.000" />
-  <rect class="deactivating" x="581.469" y="1820.000" width="0.000" height="19.000" />
-  <text class="left" x="380.195" y="1834.000">dev-disk-by\x2duuid-1a76ca41\x2d78f2\x2d4499\x2d9560\x2d233cd35734b4.device</text>
-  <rect class="activating" x="375.196" y="1840.000" width="0.000" height="19.000" />
-  <rect class="active" x="375.196" y="1840.000" width="206.273" height="19.000" />
-  <rect class="deactivating" x="581.469" y="1840.000" width="0.000" height="19.000" />
-  <text class="left" x="380.196" y="1854.000">dev-disk-by\x2dpartuuid-d74c5e5a\x2d01.device</text>
-  <rect class="activating" x="375.197" y="1860.000" width="0.000" height="19.000" />
-  <rect class="active" x="375.197" y="1860.000" width="206.273" height="19.000" />
-  <rect class="deactivating" x="581.469" y="1860.000" width="0.000" height="19.000" />
-  <text class="left" x="380.197" y="1874.000">dev-disk-by\x2dpath-pci\x2d0000:00:11.0\x2data\x2d1.0\x2dpart1.device</text>
-  <rect class="activating" x="375.197" y="1880.000" width="0.000" height="19.000" />
-  <rect class="active" x="375.197" y="1880.000" width="206.272" height="19.000" />
-  <rect class="deactivating" x="581.469" y="1880.000" width="0.000" height="19.000" />
-  <text class="left" x="380.197" y="1894.000">dev-disk-by\x2did-ata\x2dSSDPR\x2dCX400\x2d128_GUS002311\x2dpart1.device</text>
-  <rect class="activating" x="375.198" y="1900.000" width="0.000" height="19.000" />
-  <rect class="active" x="375.198" y="1900.000" width="206.271" height="19.000" />
-  <rect class="deactivating" x="581.469" y="1900.000" width="0.000" height="19.000" />
-  <text class="left" x="380.198" y="1914.000">sys-devices-pci0000:00-0000:00:11.0-ata1-host0-target0:0:0-0:0:0:0-block-sda-sda1.device</text>
-  <rect class="activating" x="375.825" y="1920.000" width="0.000" height="19.000" />
-  <rect class="active" x="375.825" y="1920.000" width="205.644" height="19.000" />
-  <rect class="deactivating" x="581.469" y="1920.000" width="0.000" height="19.000" />
-  <text class="left" x="380.825" y="1934.000">dev-disk-by\x2dlabel-System\x5cx20Reserved.device</text>
-  <rect class="activating" x="375.826" y="1940.000" width="0.000" height="19.000" />
-  <rect class="active" x="375.826" y="1940.000" width="205.643" height="19.000" />
-  <rect class="deactivating" x="581.469" y="1940.000" width="0.000" height="19.000" />
-  <text class="left" x="380.826" y="1954.000">dev-disk-by\x2dpath-pci\x2d0000:00:11.0\x2data\x2d2\x2dpart1.device</text>
-  <rect class="activating" x="375.826" y="1960.000" width="0.000" height="19.000" />
-  <rect class="active" x="375.826" y="1960.000" width="205.643" height="19.000" />
-  <rect class="deactivating" x="581.469" y="1960.000" width="0.000" height="19.000" />
-  <text class="left" x="380.826" y="1974.000">dev-disk-by\x2dpath-pci\x2d0000:00:11.0\x2data\x2d2.0\x2dpart1.device</text>
-  <rect class="activating" x="375.827" y="1980.000" width="0.000" height="19.000" />
-  <rect class="active" x="375.827" y="1980.000" width="205.642" height="19.000" />
-  <rect class="deactivating" x="581.469" y="1980.000" width="0.000" height="19.000" />
-  <text class="left" x="380.827" y="1994.000">dev-disk-by\x2dpartuuid-3dea354c\x2d01.device</text>
-  <rect class="activating" x="375.828" y="2000.000" width="0.000" height="19.000" />
-  <rect class="active" x="375.828" y="2000.000" width="205.641" height="19.000" />
-  <rect class="deactivating" x="581.469" y="2000.000" width="0.000" height="19.000" />
-  <text class="left" x="380.828" y="2014.000">dev-disk-by\x2did-ata\x2dSSDPR\x2dCX400\x2d128_GUH027664\x2dpart1.device</text>
-  <rect class="activating" x="375.828" y="2020.000" width="0.000" height="19.000" />
-  <rect class="active" x="375.828" y="2020.000" width="205.641" height="19.000" />
-  <rect class="deactivating" x="581.469" y="2020.000" width="0.000" height="19.000" />
-  <text class="left" x="380.828" y="2034.000">dev-disk-by\x2duuid-4A6411366411266B.device</text>
-  <rect class="activating" x="375.832" y="2040.000" width="0.000" height="19.000" />
-  <rect class="active" x="375.832" y="2040.000" width="205.637" height="19.000" />
-  <rect class="deactivating" x="581.469" y="2040.000" width="0.000" height="19.000" />
-  <text class="left" x="380.832" y="2054.000">dev-sdb1.device</text>
-  <rect class="activating" x="375.833" y="2060.000" width="0.000" height="19.000" />
-  <rect class="active" x="375.833" y="2060.000" width="205.637" height="19.000" />
-  <rect class="deactivating" x="581.469" y="2060.000" width="0.000" height="19.000" />
-  <text class="left" x="380.833" y="2074.000">sys-devices-pci0000:00-0000:00:11.0-ata2-host1-target1:0:0-1:0:0:0-block-sdb-sdb1.device</text>
-  <rect class="activating" x="388.888" y="2080.000" width="0.000" height="19.000" />
-  <rect class="active" x="388.888" y="2080.000" width="192.582" height="19.000" />
-  <rect class="deactivating" x="581.469" y="2080.000" width="0.000" height="19.000" />
-  <text class="left" x="393.888" y="2094.000">sys-module-fuse.device</text>
-  <rect class="activating" x="389.055" y="2100.000" width="0.308" height="19.000" />
-  <rect class="active" x="389.363" y="2100.000" width="192.106" height="19.000" />
-  <rect class="deactivating" x="581.469" y="2100.000" width="0.000" height="19.000" />
-  <text class="left" x="394.055" y="2114.000">sys-fs-fuse-connections.mount (3ms)</text>
-  <rect class="activating" x="395.411" y="2120.000" width="0.000" height="19.000" />
-  <rect class="active" x="395.411" y="2120.000" width="186.058" height="19.000" />
-  <rect class="deactivating" x="581.469" y="2120.000" width="0.000" height="19.000" />
-  <text class="left" x="400.411" y="2134.000">sys-devices-pci0000:00-0000:00:02.0-0000:01:00.1-sound-card1.device</text>
-  <rect class="activating" x="395.571" y="2140.000" width="0.000" height="19.000" />
-  <rect class="active" x="395.571" y="2140.000" width="185.898" height="19.000" />
-  <rect class="deactivating" x="581.469" y="2140.000" width="0.000" height="19.000" />
-  <text class="left" x="400.571" y="2154.000">sys-subsystem-net-devices-enp2s0.device</text>
-  <rect class="activating" x="395.571" y="2160.000" width="0.000" height="19.000" />
-  <rect class="active" x="395.571" y="2160.000" width="185.898" height="19.000" />
-  <rect class="deactivating" x="581.469" y="2160.000" width="0.000" height="19.000" />
-  <text class="left" x="400.571" y="2174.000">sys-devices-pci0000:00-0000:00:0a.0-0000:02:00.0-net-enp2s0.device</text>
-  <rect class="activating" x="395.574" y="2180.000" width="0.000" height="19.000" />
-  <rect class="active" x="395.574" y="2180.000" width="185.895" height="19.000" />
-  <rect class="deactivating" x="581.469" y="2180.000" width="0.000" height="19.000" />
-  <text class="left" x="400.574" y="2194.000">sound.target</text>
-  <rect class="activating" x="401.171" y="2200.000" width="0.000" height="19.000" />
-  <rect class="active" x="401.171" y="2200.000" width="180.298" height="19.000" />
-  <rect class="deactivating" x="581.469" y="2200.000" width="0.000" height="19.000" />
-  <text class="left" x="406.171" y="2214.000">sys-devices-pci0000:00-0000:00:14.2-sound-card0.device</text>
-  <rect class="activating" x="404.113" y="2220.000" width="0.000" height="19.000" />
-  <rect class="active" x="404.113" y="2220.000" width="177.356" height="19.000" />
-  <rect class="deactivating" x="581.469" y="2220.000" width="0.000" height="19.000" />
-  <text class="left" x="409.113" y="2234.000">local-fs.target</text>
-  <rect class="activating" x="404.229" y="2240.000" width="35.837" height="19.000" />
-  <rect class="active" x="440.066" y="2240.000" width="141.403" height="19.000" />
-  <rect class="deactivating" x="581.469" y="2240.000" width="0.000" height="19.000" />
-  <text class="left" x="409.229" y="2254.000">ldconfig.service (358ms)</text>
-  <rect class="activating" x="404.351" y="2260.000" width="9.933" height="19.000" />
-  <rect class="active" x="414.284" y="2260.000" width="167.185" height="19.000" />
-  <rect class="deactivating" x="581.469" y="2260.000" width="0.000" height="19.000" />
-  <text class="left" x="409.351" y="2274.000">systemd-tmpfiles-setup.service (99ms)</text>
-  <rect class="activating" x="414.411" y="2280.000" width="2.399" height="19.000" />
-  <rect class="active" x="416.809" y="2280.000" width="164.660" height="19.000" />
-  <rect class="deactivating" x="581.469" y="2280.000" width="0.000" height="19.000" />
-  <text class="left" x="419.411" y="2294.000">systemd-journal-catalog-update.service (23ms)</text>
-  <rect class="activating" x="414.563" y="2300.000" width="58.022" height="19.000" />
-  <rect class="active" x="472.585" y="2300.000" width="108.884" height="19.000" />
-  <rect class="deactivating" x="581.469" y="2300.000" width="0.000" height="19.000" />
-  <text class="left" x="419.563" y="2314.000">systemd-timesyncd.service (580ms)</text>
-  <rect class="activating" x="414.675" y="2320.000" width="1.633" height="19.000" />
-  <rect class="active" x="416.308" y="2320.000" width="165.161" height="19.000" />
-  <rect class="deactivating" x="581.469" y="2320.000" width="0.000" height="19.000" />
-  <text class="left" x="419.675" y="2334.000">systemd-update-utmp.service (16ms)</text>
-  <rect class="activating" x="419.921" y="2340.000" width="0.000" height="19.000" />
-  <rect class="active" x="419.921" y="2340.000" width="161.548" height="19.000" />
-  <rect class="deactivating" x="581.469" y="2340.000" width="0.000" height="19.000" />
-  <text class="left" x="424.921" y="2354.000">sys-devices-pci0000:00-0000:00:13.1-usb6-6\x2d2-6\x2d2:1.0-sound-card2.device</text>
-  <rect class="activating" x="440.198" y="2360.000" width="1.355" height="19.000" />
-  <rect class="active" x="441.552" y="2360.000" width="139.917" height="19.000" />
-  <rect class="deactivating" x="581.469" y="2360.000" width="0.000" height="19.000" />
-  <text class="left" x="445.198" y="2374.000">systemd-update-done.service (13ms)</text>
-  <rect class="activating" x="472.605" y="2380.000" width="0.000" height="19.000" />
-  <rect class="active" x="472.605" y="2380.000" width="108.864" height="19.000" />
-  <rect class="deactivating" x="581.469" y="2380.000" width="0.000" height="19.000" />
-  <text class="left" x="477.605" y="2394.000">sysinit.target</text>
-  <rect class="activating" x="472.610" y="2400.000" width="0.000" height="19.000" />
-  <rect class="active" x="472.610" y="2400.000" width="108.859" height="19.000" />
-  <rect class="deactivating" x="581.469" y="2400.000" width="0.000" height="19.000" />
-  <text class="left" x="477.610" y="2414.000">systemd-tmpfiles-clean.timer</text>
-  <rect class="activating" x="472.613" y="2420.000" width="0.000" height="19.000" />
-  <rect class="active" x="472.613" y="2420.000" width="108.857" height="19.000" />
-  <rect class="deactivating" x="581.469" y="2420.000" width="0.000" height="19.000" />
-  <text class="left" x="477.613" y="2434.000">time-set.target</text>
-  <rect class="activating" x="472.614" y="2440.000" width="0.000" height="19.000" />
-  <rect class="active" x="472.614" y="2440.000" width="108.855" height="19.000" />
-  <rect class="deactivating" x="581.469" y="2440.000" width="0.000" height="19.000" />
-  <text class="left" x="477.614" y="2454.000">time-sync.target</text>
-  <rect class="activating" x="472.622" y="2460.000" width="0.000" height="19.000" />
-  <rect class="active" x="472.622" y="2460.000" width="108.847" height="19.000" />
-  <rect class="deactivating" x="581.469" y="2460.000" width="0.000" height="19.000" />
-  <text class="left" x="477.622" y="2474.000">shadow.timer</text>
-  <rect class="activating" x="472.624" y="2480.000" width="0.000" height="19.000" />
-  <rect class="active" x="472.624" y="2480.000" width="108.845" height="19.000" />
-  <rect class="deactivating" x="581.469" y="2480.000" width="0.000" height="19.000" />
-  <text class="left" x="477.624" y="2494.000">timers.target</text>
-  <rect class="activating" x="472.665" y="2500.000" width="0.000" height="19.000" />
-  <rect class="active" x="472.665" y="2500.000" width="108.804" height="19.000" />
-  <rect class="deactivating" x="581.469" y="2500.000" width="0.000" height="19.000" />
-  <text class="left" x="477.665" y="2514.000">dbus.socket</text>
-  <rect class="activating" x="472.668" y="2520.000" width="0.000" height="19.000" />
-  <rect class="active" x="472.668" y="2520.000" width="108.801" height="19.000" />
-  <rect class="deactivating" x="581.469" y="2520.000" width="0.000" height="19.000" />
-  <text class="left" x="477.668" y="2534.000">sockets.target</text>
-  <rect class="activating" x="472.671" y="2540.000" width="0.000" height="19.000" />
-  <rect class="active" x="472.671" y="2540.000" width="108.798" height="19.000" />
-  <rect class="deactivating" x="581.469" y="2540.000" width="0.000" height="19.000" />
-  <text class="left" x="477.671" y="2554.000">basic.target</text>
-  <rect class="activating" x="472.771" y="2560.000" width="0.000" height="19.000" />
-  <rect class="active" x="472.771" y="2560.000" width="108.698" height="19.000" />
-  <rect class="deactivating" x="581.469" y="2560.000" width="0.000" height="19.000" />
-  <text class="left" x="477.771" y="2574.000">dbus.service</text>
-  <rect class="activating" x="473.060" y="2580.000" width="10.575" height="19.000" />
-  <rect class="active" x="483.635" y="2580.000" width="97.834" height="19.000" />
-  <rect class="deactivating" x="581.469" y="2580.000" width="0.000" height="19.000" />
-  <text class="left" x="478.060" y="2594.000">dhcpcd.service (105ms)</text>
-  <rect class="activating" x="473.165" y="2600.000" width="3.163" height="19.000" />
-  <rect class="active" x="476.327" y="2600.000" width="105.142" height="19.000" />
-  <rect class="deactivating" x="581.469" y="2600.000" width="0.000" height="19.000" />
-  <text class="left" x="478.165" y="2614.000">lm_sensors.service (31ms)</text>
-  <rect class="activating" x="473.388" y="2620.000" width="107.957" height="19.000" />
-  <rect class="active" x="581.345" y="2620.000" width="0.124" height="19.000" />
-  <rect class="deactivating" x="581.469" y="2620.000" width="0.000" height="19.000" />
-  <text class="left" x="478.388" y="2634.000">systemd-logind.service (1.079s)</text>
-  <rect class="activating" x="478.516" y="2640.000" width="0.000" height="19.000" />
-  <rect class="active" x="478.516" y="2640.000" width="102.953" height="19.000" />
-  <rect class="deactivating" x="581.469" y="2640.000" width="0.000" height="19.000" />
-  <text class="left" x="483.516" y="2654.000">dev-rfkill.device</text>
-  <rect class="activating" x="478.516" y="2660.000" width="0.000" height="19.000" />
-  <rect class="active" x="478.516" y="2660.000" width="102.953" height="19.000" />
-  <rect class="deactivating" x="581.469" y="2660.000" width="0.000" height="19.000" />
-  <text class="left" x="483.516" y="2674.000">sys-devices-virtual-misc-rfkill.device</text>
-  <rect class="activating" x="478.526" y="2680.000" width="0.000" height="19.000" />
-  <rect class="active" x="478.526" y="2680.000" width="102.943" height="19.000" />
-  <rect class="deactivating" x="581.469" y="2680.000" width="0.000" height="19.000" />
-  <text class="left" x="483.526" y="2694.000">systemd-rfkill.socket</text>
-  <rect class="activating" x="483.651" y="2700.000" width="0.000" height="19.000" />
-  <rect class="active" x="483.651" y="2700.000" width="97.818" height="19.000" />
-  <rect class="deactivating" x="581.469" y="2700.000" width="0.000" height="19.000" />
-  <text class="left" x="488.651" y="2714.000">network.target</text>
-  <rect class="activating" x="483.757" y="2720.000" width="0.794" height="19.000" />
-  <rect class="active" x="484.550" y="2720.000" width="96.919" height="19.000" />
-  <rect class="deactivating" x="581.469" y="2720.000" width="0.000" height="19.000" />
-  <text class="left" x="488.757" y="2734.000">systemd-user-sessions.service (7ms)</text>
-  <rect class="activating" x="484.655" y="2740.000" width="0.000" height="19.000" />
-  <rect class="active" x="484.655" y="2740.000" width="96.814" height="19.000" />
-  <rect class="deactivating" x="581.469" y="2740.000" width="0.000" height="19.000" />
-  <text class="left" x="489.655" y="2754.000">getty@tty1.service</text>
-  <rect class="activating" x="484.672" y="2760.000" width="0.000" height="19.000" />
-  <rect class="active" x="484.672" y="2760.000" width="96.797" height="19.000" />
-  <rect class="deactivating" x="581.469" y="2760.000" width="0.000" height="19.000" />
-  <text class="left" x="489.672" y="2774.000">getty.target</text>
-  <rect class="activating" x="581.421" y="2780.000" width="0.000" height="19.000" />
-  <rect class="active" x="581.421" y="2780.000" width="0.048" height="19.000" />
-  <rect class="deactivating" x="581.469" y="2780.000" width="0.000" height="19.000" />
-  <text class="right" x="576.421" y="2794.000">multi-user.target</text>
-  <rect class="activating" x="581.452" y="2800.000" width="0.000" height="19.000" />
-  <rect class="active" x="581.452" y="2800.000" width="0.018" height="19.000" />
-  <rect class="deactivating" x="581.469" y="2800.000" width="0.000" height="19.000" />
-  <text class="right" x="576.452" y="2814.000">graphical.target</text>
+  <rect class="active" x="253.887" y="20.000" width="408.893" height="19.000" />
+  <rect class="security" x="253.917" y="20.000" width="0.000" height="19.000" />
+  <rect class="generators" x="264.135" y="20.000" width="12.755" height="19.000" />
+  <rect class="unitsload" x="276.891" y="20.000" width="6.455" height="19.000" />
+  <text class="left" x="258.887" y="34.000">systemd</text>
+  <rect class="activating" x="283.355" y="40.000" width="0.000" height="19.000" />
+  <rect class="active" x="283.355" y="40.000" width="379.425" height="19.000" />
+  <rect class="deactivating" x="662.779" y="40.000" width="0.000" height="19.000" />
+  <text class="left" x="288.355" y="54.000">-.mount</text>
+  <rect class="activating" x="283.356" y="60.000" width="0.000" height="19.000" />
+  <rect class="active" x="283.356" y="60.000" width="379.423" height="19.000" />
+  <rect class="deactivating" x="662.779" y="60.000" width="0.000" height="19.000" />
+  <text class="left" x="288.356" y="74.000">init.scope</text>
+  <rect class="activating" x="283.357" y="80.000" width="0.000" height="19.000" />
+  <rect class="active" x="283.357" y="80.000" width="379.422" height="19.000" />
+  <rect class="deactivating" x="662.779" y="80.000" width="0.000" height="19.000" />
+  <text class="left" x="288.357" y="94.000">system.slice</text>
+  <rect class="activating" x="283.357" y="100.000" width="0.000" height="19.000" />
+  <rect class="active" x="283.357" y="100.000" width="379.422" height="19.000" />
+  <rect class="deactivating" x="662.779" y="100.000" width="0.000" height="19.000" />
+  <text class="left" x="288.357" y="114.000">-.slice</text>
+  <rect class="activating" x="284.338" y="120.000" width="0.000" height="19.000" />
+  <rect class="active" x="284.338" y="120.000" width="378.442" height="19.000" />
+  <rect class="deactivating" x="662.779" y="120.000" width="0.000" height="19.000" />
+  <text class="left" x="289.338" y="134.000">system-getty.slice</text>
+  <rect class="activating" x="284.361" y="140.000" width="0.000" height="19.000" />
+  <rect class="active" x="284.361" y="140.000" width="378.418" height="19.000" />
+  <rect class="deactivating" x="662.779" y="140.000" width="0.000" height="19.000" />
+  <text class="left" x="289.361" y="154.000">system-modprobe.slice</text>
+  <rect class="activating" x="284.386" y="160.000" width="0.000" height="19.000" />
+  <rect class="active" x="284.386" y="160.000" width="378.394" height="19.000" />
+  <rect class="deactivating" x="662.779" y="160.000" width="0.000" height="19.000" />
+  <text class="left" x="289.386" y="174.000">user.slice</text>
+  <rect class="activating" x="284.391" y="180.000" width="0.000" height="19.000" />
+  <rect class="active" x="284.391" y="180.000" width="378.388" height="19.000" />
+  <rect class="deactivating" x="662.779" y="180.000" width="0.000" height="19.000" />
+  <text class="left" x="289.391" y="194.000">systemd-ask-password-console.path</text>
+  <rect class="activating" x="284.395" y="200.000" width="0.000" height="19.000" />
+  <rect class="active" x="284.395" y="200.000" width="378.384" height="19.000" />
+  <rect class="deactivating" x="662.779" y="200.000" width="0.000" height="19.000" />
+  <text class="left" x="289.395" y="214.000">systemd-ask-password-wall.path</text>
+  <rect class="activating" x="284.409" y="220.000" width="0.000" height="19.000" />
+  <rect class="active" x="284.409" y="220.000" width="378.370" height="19.000" />
+  <rect class="deactivating" x="662.779" y="220.000" width="0.000" height="19.000" />
+  <text class="left" x="289.409" y="234.000">proc-sys-fs-binfmt_misc.automount</text>
+  <rect class="activating" x="284.413" y="240.000" width="0.000" height="19.000" />
+  <rect class="active" x="284.413" y="240.000" width="378.367" height="19.000" />
+  <rect class="deactivating" x="662.779" y="240.000" width="0.000" height="19.000" />
+  <text class="left" x="289.413" y="254.000">cryptsetup.target</text>
+  <rect class="activating" x="284.416" y="260.000" width="0.000" height="19.000" />
+  <rect class="active" x="284.416" y="260.000" width="378.363" height="19.000" />
+  <rect class="deactivating" x="662.779" y="260.000" width="0.000" height="19.000" />
+  <text class="left" x="289.416" y="274.000">paths.target</text>
+  <rect class="activating" x="284.418" y="280.000" width="0.000" height="19.000" />
+  <rect class="active" x="284.418" y="280.000" width="378.361" height="19.000" />
+  <rect class="deactivating" x="662.779" y="280.000" width="0.000" height="19.000" />
+  <text class="left" x="289.418" y="294.000">remote-fs.target</text>
+  <rect class="activating" x="284.420" y="300.000" width="0.000" height="19.000" />
+  <rect class="active" x="284.420" y="300.000" width="378.360" height="19.000" />
+  <rect class="deactivating" x="662.779" y="300.000" width="0.000" height="19.000" />
+  <text class="left" x="289.420" y="314.000">slices.target</text>
+  <rect class="activating" x="284.422" y="320.000" width="0.000" height="19.000" />
+  <rect class="active" x="284.422" y="320.000" width="378.357" height="19.000" />
+  <rect class="deactivating" x="662.779" y="320.000" width="0.000" height="19.000" />
+  <text class="left" x="289.422" y="334.000">swap.target</text>
+  <rect class="activating" x="284.428" y="340.000" width="0.000" height="19.000" />
+  <rect class="active" x="284.428" y="340.000" width="378.352" height="19.000" />
+  <rect class="deactivating" x="662.779" y="340.000" width="0.000" height="19.000" />
+  <text class="left" x="289.428" y="354.000">dm-event.socket</text>
+  <rect class="activating" x="284.496" y="360.000" width="0.000" height="19.000" />
+  <rect class="active" x="284.496" y="360.000" width="378.284" height="19.000" />
+  <rect class="deactivating" x="662.779" y="360.000" width="0.000" height="19.000" />
+  <text class="left" x="289.496" y="374.000">lvm2-lvmetad.socket</text>
+  <rect class="activating" x="284.531" y="380.000" width="0.000" height="19.000" />
+  <rect class="active" x="284.531" y="380.000" width="378.248" height="19.000" />
+  <rect class="deactivating" x="662.779" y="380.000" width="0.000" height="19.000" />
+  <text class="left" x="289.531" y="394.000">lvm2-lvmpolld.socket</text>
+  <rect class="activating" x="284.750" y="400.000" width="0.000" height="19.000" />
+  <rect class="active" x="284.750" y="400.000" width="378.030" height="19.000" />
+  <rect class="deactivating" x="662.779" y="400.000" width="0.000" height="19.000" />
+  <text class="left" x="289.750" y="414.000">systemd-coredump.socket</text>
+  <rect class="activating" x="284.762" y="420.000" width="0.000" height="19.000" />
+  <rect class="active" x="284.762" y="420.000" width="378.018" height="19.000" />
+  <rect class="deactivating" x="662.779" y="420.000" width="0.000" height="19.000" />
+  <text class="left" x="289.762" y="434.000">systemd-journald-audit.socket</text>
+  <rect class="activating" x="284.770" y="440.000" width="0.000" height="19.000" />
+  <rect class="active" x="284.770" y="440.000" width="378.009" height="19.000" />
+  <rect class="deactivating" x="662.779" y="440.000" width="0.000" height="19.000" />
+  <text class="left" x="289.770" y="454.000">systemd-journald-dev-log.socket</text>
+  <rect class="activating" x="284.779" y="460.000" width="0.000" height="19.000" />
+  <rect class="active" x="284.779" y="460.000" width="378.000" height="19.000" />
+  <rect class="deactivating" x="662.779" y="460.000" width="0.000" height="19.000" />
+  <text class="left" x="289.779" y="474.000">systemd-journald.socket</text>
+  <rect class="activating" x="284.817" y="480.000" width="0.000" height="19.000" />
+  <rect class="active" x="284.817" y="480.000" width="377.962" height="19.000" />
+  <rect class="deactivating" x="662.779" y="480.000" width="0.000" height="19.000" />
+  <text class="left" x="289.817" y="494.000">systemd-udevd-control.socket</text>
+  <rect class="activating" x="284.825" y="500.000" width="0.000" height="19.000" />
+  <rect class="active" x="284.825" y="500.000" width="377.955" height="19.000" />
+  <rect class="deactivating" x="662.779" y="500.000" width="0.000" height="19.000" />
+  <text class="left" x="289.825" y="514.000">systemd-udevd-kernel.socket</text>
+  <rect class="activating" x="284.914" y="520.000" width="1.445" height="19.000" />
+  <rect class="active" x="286.359" y="520.000" width="376.420" height="19.000" />
+  <rect class="deactivating" x="662.779" y="520.000" width="0.000" height="19.000" />
+  <text class="left" x="289.914" y="534.000">dev-hugepages.mount (14ms)</text>
+  <rect class="activating" x="285.007" y="540.000" width="1.369" height="19.000" />
+  <rect class="active" x="286.376" y="540.000" width="376.403" height="19.000" />
+  <rect class="deactivating" x="662.779" y="540.000" width="0.000" height="19.000" />
+  <text class="left" x="290.007" y="554.000">dev-mqueue.mount (13ms)</text>
+  <rect class="activating" x="285.115" y="560.000" width="1.274" height="19.000" />
+  <rect class="active" x="286.388" y="560.000" width="376.391" height="19.000" />
+  <rect class="deactivating" x="662.779" y="560.000" width="0.000" height="19.000" />
+  <text class="left" x="290.115" y="574.000">sys-kernel-debug.mount (12ms)</text>
+  <rect class="activating" x="285.219" y="580.000" width="1.181" height="19.000" />
+  <rect class="active" x="286.400" y="580.000" width="376.380" height="19.000" />
+  <rect class="deactivating" x="662.779" y="580.000" width="0.000" height="19.000" />
+  <text class="left" x="290.219" y="594.000">sys-kernel-tracing.mount (11ms)</text>
+  <rect class="activating" x="285.334" y="600.000" width="1.077" height="19.000" />
+  <rect class="active" x="286.411" y="600.000" width="376.368" height="19.000" />
+  <rect class="deactivating" x="662.779" y="600.000" width="0.000" height="19.000" />
+  <text class="left" x="290.334" y="614.000">tmp.mount (10ms)</text>
+  <rect class="activating" x="285.461" y="620.000" width="1.015" height="19.000" />
+  <rect class="active" x="286.476" y="620.000" width="376.304" height="19.000" />
+  <rect class="deactivating" x="662.779" y="620.000" width="0.000" height="19.000" />
+  <text class="left" x="290.461" y="634.000">kmod-static-nodes.service (10ms)</text>
+  <rect class="activating" x="285.566" y="640.000" width="5.372" height="19.000" />
+  <rect class="active" x="290.939" y="640.000" width="0.000" height="19.000" />
+  <rect class="deactivating" x="290.939" y="640.000" width="0.000" height="19.000" />
+  <text class="left" x="290.566" y="654.000">modprobe@drm.service (53ms)</text>
+  <rect class="activating" x="285.687" y="660.000" width="1.940" height="19.000" />
+  <rect class="active" x="287.628" y="660.000" width="375.152" height="19.000" />
+  <rect class="deactivating" x="662.779" y="660.000" width="0.000" height="19.000" />
+  <text class="left" x="290.687" y="674.000">systemd-binfmt.service (19ms)</text>
+  <rect class="activating" x="285.851" y="680.000" width="56.706" height="19.000" />
+  <rect class="active" x="342.557" y="680.000" width="320.222" height="19.000" />
+  <rect class="deactivating" x="662.779" y="680.000" width="0.000" height="19.000" />
+  <text class="left" x="290.851" y="694.000">systemd-journald.service (567ms)</text>
+  <rect class="activating" x="285.975" y="700.000" width="5.666" height="19.000" />
+  <rect class="active" x="291.641" y="700.000" width="371.138" height="19.000" />
+  <rect class="deactivating" x="662.779" y="700.000" width="0.000" height="19.000" />
+  <text class="left" x="290.975" y="714.000">systemd-modules-load.service (56ms)</text>
+  <rect class="activating" x="286.075" y="720.000" width="4.117" height="19.000" />
+  <rect class="active" x="290.192" y="720.000" width="372.588" height="19.000" />
+  <rect class="deactivating" x="662.779" y="720.000" width="0.000" height="19.000" />
+  <text class="left" x="291.075" y="734.000">systemd-remount-fs.service (41ms)</text>
+  <rect class="activating" x="286.191" y="740.000" width="7.961" height="19.000" />
+  <rect class="active" x="294.151" y="740.000" width="368.628" height="19.000" />
+  <rect class="deactivating" x="662.779" y="740.000" width="0.000" height="19.000" />
+  <text class="left" x="291.191" y="754.000">systemd-udev-trigger.service (79ms)</text>
+  <rect class="activating" x="286.288" y="760.000" width="181.985" height="19.000" />
+  <rect class="active" x="468.273" y="760.000" width="194.506" height="19.000" />
+  <rect class="deactivating" x="662.779" y="760.000" width="0.000" height="19.000" />
+  <text class="left" x="291.288" y="774.000">dev-sda1.device (1.819s)</text>
+  <rect class="activating" x="286.592" y="780.000" width="0.280" height="19.000" />
+  <rect class="active" x="286.872" y="780.000" width="375.907" height="19.000" />
+  <rect class="deactivating" x="662.779" y="780.000" width="0.000" height="19.000" />
+  <text class="left" x="291.592" y="794.000">proc-sys-fs-binfmt_misc.mount (2ms)</text>
+  <rect class="activating" x="290.783" y="800.000" width="201.918" height="19.000" />
+  <rect class="active" x="492.701" y="800.000" width="170.078" height="19.000" />
+  <rect class="deactivating" x="662.779" y="800.000" width="0.000" height="19.000" />
+  <text class="left" x="295.783" y="814.000">systemd-random-seed.service (2.019s)</text>
+  <rect class="activating" x="290.893" y="820.000" width="4.866" height="19.000" />
+  <rect class="active" x="295.759" y="820.000" width="367.020" height="19.000" />
+  <rect class="deactivating" x="662.779" y="820.000" width="0.000" height="19.000" />
+  <text class="left" x="295.893" y="834.000">systemd-sysusers.service (48ms)</text>
+  <rect class="activating" x="291.771" y="840.000" width="0.262" height="19.000" />
+  <rect class="active" x="292.033" y="840.000" width="370.747" height="19.000" />
+  <rect class="deactivating" x="662.779" y="840.000" width="0.000" height="19.000" />
+  <text class="left" x="296.771" y="854.000">sys-kernel-config.mount (2ms)</text>
+  <rect class="activating" x="291.888" y="860.000" width="3.122" height="19.000" />
+  <rect class="active" x="295.010" y="860.000" width="367.769" height="19.000" />
+  <rect class="deactivating" x="662.779" y="860.000" width="0.000" height="19.000" />
+  <text class="left" x="296.888" y="874.000">systemd-sysctl.service (31ms)</text>
+  <rect class="activating" x="295.854" y="880.000" width="1.078" height="19.000" />
+  <rect class="active" x="296.932" y="880.000" width="365.847" height="19.000" />
+  <rect class="deactivating" x="662.779" y="880.000" width="0.000" height="19.000" />
+  <text class="left" x="300.854" y="894.000">systemd-tmpfiles-setup-dev.service (10ms)</text>
+  <rect class="activating" x="296.945" y="900.000" width="0.000" height="19.000" />
+  <rect class="active" x="296.945" y="900.000" width="365.835" height="19.000" />
+  <rect class="deactivating" x="662.779" y="900.000" width="0.000" height="19.000" />
+  <text class="left" x="301.945" y="914.000">local-fs-pre.target</text>
+  <rect class="activating" x="297.069" y="920.000" width="127.559" height="19.000" />
+  <rect class="active" x="424.628" y="920.000" width="238.151" height="19.000" />
+  <rect class="deactivating" x="662.779" y="920.000" width="0.000" height="19.000" />
+  <text class="left" x="302.069" y="934.000">systemd-udevd.service (1.275s)</text>
+  <rect class="activating" x="342.677" y="940.000" width="126.249" height="19.000" />
+  <rect class="active" x="468.925" y="940.000" width="193.854" height="19.000" />
+  <rect class="deactivating" x="662.779" y="940.000" width="0.000" height="19.000" />
+  <text class="left" x="347.677" y="954.000">systemd-journal-flush.service (1.262s)</text>
+  <rect class="activating" x="427.399" y="960.000" width="0.000" height="19.000" />
+  <rect class="active" x="427.399" y="960.000" width="235.381" height="19.000" />
+  <rect class="deactivating" x="662.779" y="960.000" width="0.000" height="19.000" />
+  <text class="left" x="432.399" y="974.000">sys-module-configfs.device</text>
+  <rect class="activating" x="447.759" y="980.000" width="0.000" height="19.000" />
+  <rect class="active" x="447.759" y="980.000" width="215.020" height="19.000" />
+  <rect class="deactivating" x="662.779" y="980.000" width="0.000" height="19.000" />
+  <text class="left" x="452.759" y="994.000">dev-ttyS1.device</text>
+  <rect class="activating" x="447.760" y="1000.000" width="0.000" height="19.000" />
+  <rect class="active" x="447.760" y="1000.000" width="215.019" height="19.000" />
+  <rect class="deactivating" x="662.779" y="1000.000" width="0.000" height="19.000" />
+  <text class="left" x="452.760" y="1014.000">sys-devices-platform-serial8250-tty-ttyS1.device</text>
+  <rect class="activating" x="447.834" y="1020.000" width="0.000" height="19.000" />
+  <rect class="active" x="447.834" y="1020.000" width="214.946" height="19.000" />
+  <rect class="deactivating" x="662.779" y="1020.000" width="0.000" height="19.000" />
+  <text class="left" x="452.834" y="1034.000">dev-ttyS2.device</text>
+  <rect class="activating" x="447.834" y="1040.000" width="0.000" height="19.000" />
+  <rect class="active" x="447.834" y="1040.000" width="214.945" height="19.000" />
+  <rect class="deactivating" x="662.779" y="1040.000" width="0.000" height="19.000" />
+  <text class="left" x="452.834" y="1054.000">sys-devices-platform-serial8250-tty-ttyS2.device</text>
+  <rect class="activating" x="447.955" y="1060.000" width="0.000" height="19.000" />
+  <rect class="active" x="447.955" y="1060.000" width="214.824" height="19.000" />
+  <rect class="deactivating" x="662.779" y="1060.000" width="0.000" height="19.000" />
+  <text class="left" x="452.955" y="1074.000">dev-ttyS3.device</text>
+  <rect class="activating" x="447.957" y="1080.000" width="0.000" height="19.000" />
+  <rect class="active" x="447.957" y="1080.000" width="214.822" height="19.000" />
+  <rect class="deactivating" x="662.779" y="1080.000" width="0.000" height="19.000" />
+  <text class="left" x="452.957" y="1094.000">sys-devices-platform-serial8250-tty-ttyS3.device</text>
+  <rect class="activating" x="448.290" y="1100.000" width="0.000" height="19.000" />
+  <rect class="active" x="448.290" y="1100.000" width="214.490" height="19.000" />
+  <rect class="deactivating" x="662.779" y="1100.000" width="0.000" height="19.000" />
+  <text class="left" x="453.290" y="1114.000">dev-disk-by\x2dpath-pci\x2d0000:00:11.0\x2data\x2d2.device</text>
+  <rect class="activating" x="448.290" y="1120.000" width="0.000" height="19.000" />
+  <rect class="active" x="448.290" y="1120.000" width="214.489" height="19.000" />
+  <rect class="deactivating" x="662.779" y="1120.000" width="0.000" height="19.000" />
+  <text class="left" x="453.290" y="1134.000">dev-disk-by\x2did-ata\x2dSSDPR\x2dCX400\x2d128_GUH027664.device</text>
+  <rect class="activating" x="448.291" y="1140.000" width="0.000" height="19.000" />
+  <rect class="active" x="448.291" y="1140.000" width="214.489" height="19.000" />
+  <rect class="deactivating" x="662.779" y="1140.000" width="0.000" height="19.000" />
+  <text class="left" x="453.291" y="1154.000">dev-disk-by\x2dpath-pci\x2d0000:00:11.0\x2data\x2d2.0.device</text>
+  <rect class="activating" x="448.291" y="1160.000" width="0.000" height="19.000" />
+  <rect class="active" x="448.291" y="1160.000" width="214.488" height="19.000" />
+  <rect class="deactivating" x="662.779" y="1160.000" width="0.000" height="19.000" />
+  <text class="left" x="453.291" y="1174.000">dev-sdb.device</text>
+  <rect class="activating" x="448.292" y="1180.000" width="0.000" height="19.000" />
+  <rect class="active" x="448.292" y="1180.000" width="214.488" height="19.000" />
+  <rect class="deactivating" x="662.779" y="1180.000" width="0.000" height="19.000" />
+  <text class="left" x="453.292" y="1194.000">sys-devices-pci0000:00-0000:00:11.0-ata2-host1-target1:0:0-1:0:0:0-block-sdb.device</text>
+  <rect class="activating" x="448.374" y="1200.000" width="0.000" height="19.000" />
+  <rect class="active" x="448.374" y="1200.000" width="214.406" height="19.000" />
+  <rect class="deactivating" x="662.779" y="1200.000" width="0.000" height="19.000" />
+  <text class="left" x="453.374" y="1214.000">dev-ttyS0.device</text>
+  <rect class="activating" x="448.374" y="1220.000" width="0.000" height="19.000" />
+  <rect class="active" x="448.374" y="1220.000" width="214.405" height="19.000" />
+  <rect class="deactivating" x="662.779" y="1220.000" width="0.000" height="19.000" />
+  <text class="left" x="453.374" y="1234.000">sys-devices-pnp0-00:03-tty-ttyS0.device</text>
+  <rect class="activating" x="449.231" y="1240.000" width="0.000" height="19.000" />
+  <rect class="active" x="449.231" y="1240.000" width="213.549" height="19.000" />
+  <rect class="deactivating" x="662.779" y="1240.000" width="0.000" height="19.000" />
+  <text class="left" x="454.231" y="1254.000">dev-disk-by\x2did-ata\x2dSSDPR\x2dCX400\x2d128_GUS002311.device</text>
+  <rect class="activating" x="449.231" y="1260.000" width="0.000" height="19.000" />
+  <rect class="active" x="449.231" y="1260.000" width="213.548" height="19.000" />
+  <rect class="deactivating" x="662.779" y="1260.000" width="0.000" height="19.000" />
+  <text class="left" x="454.231" y="1274.000">dev-disk-by\x2dpath-pci\x2d0000:00:11.0\x2data\x2d1.0.device</text>
+  <rect class="activating" x="449.232" y="1280.000" width="0.000" height="19.000" />
+  <rect class="active" x="449.232" y="1280.000" width="213.547" height="19.000" />
+  <rect class="deactivating" x="662.779" y="1280.000" width="0.000" height="19.000" />
+  <text class="left" x="454.232" y="1294.000">dev-disk-by\x2dpath-pci\x2d0000:00:11.0\x2data\x2d1.device</text>
+  <rect class="activating" x="449.233" y="1300.000" width="0.000" height="19.000" />
+  <rect class="active" x="449.233" y="1300.000" width="213.547" height="19.000" />
+  <rect class="deactivating" x="662.779" y="1300.000" width="0.000" height="19.000" />
+  <text class="left" x="454.233" y="1314.000">dev-sda.device</text>
+  <rect class="activating" x="449.233" y="1320.000" width="0.000" height="19.000" />
+  <rect class="active" x="449.233" y="1320.000" width="213.546" height="19.000" />
+  <rect class="deactivating" x="662.779" y="1320.000" width="0.000" height="19.000" />
+  <text class="left" x="454.233" y="1334.000">sys-devices-pci0000:00-0000:00:11.0-ata1-host0-target0:0:0-0:0:0:0-block-sda.device</text>
+  <rect class="activating" x="450.673" y="1340.000" width="0.000" height="19.000" />
+  <rect class="active" x="450.673" y="1340.000" width="212.106" height="19.000" />
+  <rect class="deactivating" x="662.779" y="1340.000" width="0.000" height="19.000" />
+  <text class="left" x="455.673" y="1354.000">dev-disk-by\x2dpath-pci\x2d0000:00:11.0\x2data\x2d3.device</text>
+  <rect class="activating" x="450.674" y="1360.000" width="0.000" height="19.000" />
+  <rect class="active" x="450.674" y="1360.000" width="212.105" height="19.000" />
+  <rect class="deactivating" x="662.779" y="1360.000" width="0.000" height="19.000" />
+  <text class="left" x="455.674" y="1374.000">dev-disk-by\x2did-ata\x2dSSDPR\x2dCL100\x2d480\x2dG2_GV8056983.device</text>
+  <rect class="activating" x="450.675" y="1380.000" width="0.000" height="19.000" />
+  <rect class="active" x="450.675" y="1380.000" width="212.105" height="19.000" />
+  <rect class="deactivating" x="662.779" y="1380.000" width="0.000" height="19.000" />
+  <text class="left" x="455.675" y="1394.000">dev-disk-by\x2did-wwn\x2d0x502b2a201d1c1b1a.device</text>
+  <rect class="activating" x="450.675" y="1400.000" width="0.000" height="19.000" />
+  <rect class="active" x="450.675" y="1400.000" width="212.104" height="19.000" />
+  <rect class="deactivating" x="662.779" y="1400.000" width="0.000" height="19.000" />
+  <text class="left" x="455.675" y="1414.000">dev-disk-by\x2dpath-pci\x2d0000:00:11.0\x2data\x2d3.0.device</text>
+  <rect class="activating" x="450.676" y="1420.000" width="0.000" height="19.000" />
+  <rect class="active" x="450.676" y="1420.000" width="212.103" height="19.000" />
+  <rect class="deactivating" x="662.779" y="1420.000" width="0.000" height="19.000" />
+  <text class="left" x="455.676" y="1434.000">dev-sdc.device</text>
+  <rect class="activating" x="450.677" y="1440.000" width="0.000" height="19.000" />
+  <rect class="active" x="450.677" y="1440.000" width="212.103" height="19.000" />
+  <rect class="deactivating" x="662.779" y="1440.000" width="0.000" height="19.000" />
+  <text class="left" x="455.677" y="1454.000">sys-devices-pci0000:00-0000:00:11.0-ata3-host2-target2:0:0-2:0:0:0-block-sdc.device</text>
+  <rect class="activating" x="451.978" y="1460.000" width="0.000" height="19.000" />
+  <rect class="active" x="451.978" y="1460.000" width="210.802" height="19.000" />
+  <rect class="deactivating" x="662.779" y="1460.000" width="0.000" height="19.000" />
+  <text class="left" x="456.978" y="1474.000">dev-disk-by\x2dpath-pci\x2d0000:00:11.0\x2data\x2d3\x2dpart1.device</text>
+  <rect class="activating" x="451.978" y="1480.000" width="0.000" height="19.000" />
+  <rect class="active" x="451.978" y="1480.000" width="210.801" height="19.000" />
+  <rect class="deactivating" x="662.779" y="1480.000" width="0.000" height="19.000" />
+  <text class="left" x="456.978" y="1494.000">dev-disk-by\x2did-ata\x2dSSDPR\x2dCL100\x2d480\x2dG2_GV8056983\x2dpart1.device</text>
+  <rect class="activating" x="451.979" y="1500.000" width="0.000" height="19.000" />
+  <rect class="active" x="451.979" y="1500.000" width="210.800" height="19.000" />
+  <rect class="deactivating" x="662.779" y="1500.000" width="0.000" height="19.000" />
+  <text class="left" x="456.979" y="1514.000">dev-disk-by\x2dpartuuid-c1968b9d\x2d01.device</text>
+  <rect class="activating" x="451.980" y="1520.000" width="0.000" height="19.000" />
+  <rect class="active" x="451.980" y="1520.000" width="210.800" height="19.000" />
+  <rect class="deactivating" x="662.779" y="1520.000" width="0.000" height="19.000" />
+  <text class="left" x="456.980" y="1534.000">dev-disk-by\x2did-wwn\x2d0x502b2a201d1c1b1a\x2dpart1.device</text>
+  <rect class="activating" x="451.980" y="1540.000" width="0.000" height="19.000" />
+  <rect class="active" x="451.980" y="1540.000" width="210.799" height="19.000" />
+  <rect class="deactivating" x="662.779" y="1540.000" width="0.000" height="19.000" />
+  <text class="left" x="456.980" y="1554.000">dev-disk-by\x2duuid-207EA3E97EA3B5C6.device</text>
+  <rect class="activating" x="451.981" y="1560.000" width="0.000" height="19.000" />
+  <rect class="active" x="451.981" y="1560.000" width="210.799" height="19.000" />
+  <rect class="deactivating" x="662.779" y="1560.000" width="0.000" height="19.000" />
+  <text class="left" x="456.981" y="1574.000">dev-disk-by\x2dpath-pci\x2d0000:00:11.0\x2data\x2d3.0\x2dpart1.device</text>
+  <rect class="activating" x="451.981" y="1580.000" width="0.000" height="19.000" />
+  <rect class="active" x="451.981" y="1580.000" width="210.798" height="19.000" />
+  <rect class="deactivating" x="662.779" y="1580.000" width="0.000" height="19.000" />
+  <text class="left" x="456.981" y="1594.000">dev-disk-by\x2dlabel-Local\x5cx20Disk.device</text>
+  <rect class="activating" x="451.982" y="1600.000" width="0.000" height="19.000" />
+  <rect class="active" x="451.982" y="1600.000" width="210.798" height="19.000" />
+  <rect class="deactivating" x="662.779" y="1600.000" width="0.000" height="19.000" />
+  <text class="left" x="456.982" y="1614.000">dev-sdc1.device</text>
+  <rect class="activating" x="451.985" y="1620.000" width="0.000" height="19.000" />
+  <rect class="active" x="451.985" y="1620.000" width="210.794" height="19.000" />
+  <rect class="deactivating" x="662.779" y="1620.000" width="0.000" height="19.000" />
+  <text class="left" x="456.985" y="1634.000">sys-devices-pci0000:00-0000:00:11.0-ata3-host2-target2:0:0-2:0:0:0-block-sdc-sdc1.device</text>
+  <rect class="activating" x="452.083" y="1640.000" width="32.035" height="19.000" />
+  <rect class="active" x="484.118" y="1640.000" width="178.661" height="19.000" />
+  <rect class="deactivating" x="662.779" y="1640.000" width="0.000" height="19.000" />
+  <text class="left" x="457.083" y="1654.000">home-andinoriel-.storage-d.mount (320ms)</text>
+  <rect class="activating" x="452.820" y="1660.000" width="0.000" height="19.000" />
+  <rect class="active" x="452.820" y="1660.000" width="209.959" height="19.000" />
+  <rect class="deactivating" x="662.779" y="1660.000" width="0.000" height="19.000" />
+  <text class="left" x="457.820" y="1674.000">dev-disk-by\x2did-ata\x2dSSDPR\x2dCX400\x2d128_GUH027664\x2dpart2.device</text>
+  <rect class="activating" x="452.821" y="1680.000" width="0.000" height="19.000" />
+  <rect class="active" x="452.821" y="1680.000" width="209.959" height="19.000" />
+  <rect class="deactivating" x="662.779" y="1680.000" width="0.000" height="19.000" />
+  <text class="left" x="457.821" y="1694.000">dev-disk-by\x2duuid-7A6412E36412A1C5.device</text>
+  <rect class="activating" x="452.821" y="1700.000" width="0.000" height="19.000" />
+  <rect class="active" x="452.821" y="1700.000" width="209.958" height="19.000" />
+  <rect class="deactivating" x="662.779" y="1700.000" width="0.000" height="19.000" />
+  <text class="left" x="457.821" y="1714.000">dev-disk-by\x2dpath-pci\x2d0000:00:11.0\x2data\x2d2\x2dpart2.device</text>
+  <rect class="activating" x="452.822" y="1720.000" width="0.000" height="19.000" />
+  <rect class="active" x="452.822" y="1720.000" width="209.958" height="19.000" />
+  <rect class="deactivating" x="662.779" y="1720.000" width="0.000" height="19.000" />
+  <text class="left" x="457.822" y="1734.000">dev-disk-by\x2dpath-pci\x2d0000:00:11.0\x2data\x2d2.0\x2dpart2.device</text>
+  <rect class="activating" x="452.822" y="1740.000" width="0.000" height="19.000" />
+  <rect class="active" x="452.822" y="1740.000" width="209.957" height="19.000" />
+  <rect class="deactivating" x="662.779" y="1740.000" width="0.000" height="19.000" />
+  <text class="left" x="457.822" y="1754.000">dev-disk-by\x2dpartuuid-3dea354c\x2d02.device</text>
+  <rect class="activating" x="452.823" y="1760.000" width="0.000" height="19.000" />
+  <rect class="active" x="452.823" y="1760.000" width="209.957" height="19.000" />
+  <rect class="deactivating" x="662.779" y="1760.000" width="0.000" height="19.000" />
+  <text class="left" x="457.823" y="1774.000">dev-sdb2.device</text>
+  <rect class="activating" x="452.825" y="1780.000" width="0.000" height="19.000" />
+  <rect class="active" x="452.825" y="1780.000" width="209.954" height="19.000" />
+  <rect class="deactivating" x="662.779" y="1780.000" width="0.000" height="19.000" />
+  <text class="left" x="457.825" y="1794.000">sys-devices-pci0000:00-0000:00:11.0-ata2-host1-target1:0:0-1:0:0:0-block-sdb-sdb2.device</text>
+  <rect class="activating" x="453.208" y="1800.000" width="0.000" height="19.000" />
+  <rect class="active" x="453.208" y="1800.000" width="209.571" height="19.000" />
+  <rect class="deactivating" x="662.779" y="1800.000" width="0.000" height="19.000" />
+  <text class="left" x="458.208" y="1814.000">dev-disk-by\x2did-ata\x2dSSDPR\x2dCX400\x2d128_GUH027664\x2dpart1.device</text>
+  <rect class="activating" x="453.209" y="1820.000" width="0.000" height="19.000" />
+  <rect class="active" x="453.209" y="1820.000" width="209.570" height="19.000" />
+  <rect class="deactivating" x="662.779" y="1820.000" width="0.000" height="19.000" />
+  <text class="left" x="458.209" y="1834.000">dev-disk-by\x2dlabel-System\x5cx20Reserved.device</text>
+  <rect class="activating" x="453.210" y="1840.000" width="0.000" height="19.000" />
+  <rect class="active" x="453.210" y="1840.000" width="209.570" height="19.000" />
+  <rect class="deactivating" x="662.779" y="1840.000" width="0.000" height="19.000" />
+  <text class="left" x="458.210" y="1854.000">dev-disk-by\x2dpath-pci\x2d0000:00:11.0\x2data\x2d2\x2dpart1.device</text>
+  <rect class="activating" x="453.210" y="1860.000" width="0.000" height="19.000" />
+  <rect class="active" x="453.210" y="1860.000" width="209.569" height="19.000" />
+  <rect class="deactivating" x="662.779" y="1860.000" width="0.000" height="19.000" />
+  <text class="left" x="458.210" y="1874.000">dev-disk-by\x2dpath-pci\x2d0000:00:11.0\x2data\x2d2.0\x2dpart1.device</text>
+  <rect class="activating" x="453.211" y="1880.000" width="0.000" height="19.000" />
+  <rect class="active" x="453.211" y="1880.000" width="209.568" height="19.000" />
+  <rect class="deactivating" x="662.779" y="1880.000" width="0.000" height="19.000" />
+  <text class="left" x="458.211" y="1894.000">dev-disk-by\x2duuid-4A6411366411266B.device</text>
+  <rect class="activating" x="453.212" y="1900.000" width="0.000" height="19.000" />
+  <rect class="active" x="453.212" y="1900.000" width="209.568" height="19.000" />
+  <rect class="deactivating" x="662.779" y="1900.000" width="0.000" height="19.000" />
+  <text class="left" x="458.212" y="1914.000">dev-disk-by\x2dpartuuid-3dea354c\x2d01.device</text>
+  <rect class="activating" x="453.212" y="1920.000" width="0.000" height="19.000" />
+  <rect class="active" x="453.212" y="1920.000" width="209.567" height="19.000" />
+  <rect class="deactivating" x="662.779" y="1920.000" width="0.000" height="19.000" />
+  <text class="left" x="458.212" y="1934.000">dev-sdb1.device</text>
+  <rect class="activating" x="453.213" y="1940.000" width="0.000" height="19.000" />
+  <rect class="active" x="453.213" y="1940.000" width="209.567" height="19.000" />
+  <rect class="deactivating" x="662.779" y="1940.000" width="0.000" height="19.000" />
+  <text class="left" x="458.213" y="1954.000">sys-devices-pci0000:00-0000:00:11.0-ata2-host1-target1:0:0-1:0:0:0-block-sdb-sdb1.device</text>
+  <rect class="activating" x="453.300" y="1960.000" width="27.960" height="19.000" />
+  <rect class="active" x="481.260" y="1960.000" width="181.519" height="19.000" />
+  <rect class="deactivating" x="662.779" y="1960.000" width="0.000" height="19.000" />
+  <text class="left" x="458.300" y="1974.000">home-andinoriel-.storage-c.mount (279ms)</text>
+  <rect class="activating" x="465.933" y="1980.000" width="0.000" height="19.000" />
+  <rect class="active" x="465.933" y="1980.000" width="196.847" height="19.000" />
+  <rect class="deactivating" x="662.779" y="1980.000" width="0.000" height="19.000" />
+  <text class="left" x="470.933" y="1994.000">sys-subsystem-net-devices-enp2s0.device</text>
+  <rect class="activating" x="465.934" y="2000.000" width="0.000" height="19.000" />
+  <rect class="active" x="465.934" y="2000.000" width="196.846" height="19.000" />
+  <rect class="deactivating" x="662.779" y="2000.000" width="0.000" height="19.000" />
+  <text class="left" x="470.934" y="2014.000">sys-devices-pci0000:00-0000:00:0a.0-0000:02:00.0-net-enp2s0.device</text>
+  <rect class="activating" x="467.171" y="2020.000" width="0.000" height="19.000" />
+  <rect class="active" x="467.171" y="2020.000" width="195.609" height="19.000" />
+  <rect class="deactivating" x="662.779" y="2020.000" width="0.000" height="19.000" />
+  <text class="left" x="472.171" y="2034.000">sys-module-fuse.device</text>
+  <rect class="activating" x="467.289" y="2040.000" width="0.316" height="19.000" />
+  <rect class="active" x="467.604" y="2040.000" width="195.175" height="19.000" />
+  <rect class="deactivating" x="662.779" y="2040.000" width="0.000" height="19.000" />
+  <text class="left" x="472.289" y="2054.000">sys-fs-fuse-connections.mount (3ms)</text>
+  <rect class="activating" x="468.270" y="2060.000" width="0.000" height="19.000" />
+  <rect class="active" x="468.270" y="2060.000" width="194.510" height="19.000" />
+  <rect class="deactivating" x="662.779" y="2060.000" width="0.000" height="19.000" />
+  <text class="left" x="473.270" y="2074.000">dev-disk-by\x2dpartuuid-d74c5e5a\x2d01.device</text>
+  <rect class="activating" x="468.270" y="2080.000" width="0.000" height="19.000" />
+  <rect class="active" x="468.270" y="2080.000" width="194.509" height="19.000" />
+  <rect class="deactivating" x="662.779" y="2080.000" width="0.000" height="19.000" />
+  <text class="left" x="473.270" y="2094.000">dev-disk-by\x2dpath-pci\x2d0000:00:11.0\x2data\x2d1\x2dpart1.device</text>
+  <rect class="activating" x="468.271" y="2100.000" width="0.000" height="19.000" />
+  <rect class="active" x="468.271" y="2100.000" width="194.508" height="19.000" />
+  <rect class="deactivating" x="662.779" y="2100.000" width="0.000" height="19.000" />
+  <text class="left" x="473.271" y="2114.000">dev-disk-by\x2dpath-pci\x2d0000:00:11.0\x2data\x2d1.0\x2dpart1.device</text>
+  <rect class="activating" x="468.272" y="2120.000" width="0.000" height="19.000" />
+  <rect class="active" x="468.272" y="2120.000" width="194.508" height="19.000" />
+  <rect class="deactivating" x="662.779" y="2120.000" width="0.000" height="19.000" />
+  <text class="left" x="473.272" y="2134.000">dev-disk-by\x2duuid-1a76ca41\x2d78f2\x2d4499\x2d9560\x2d233cd35734b4.device</text>
+  <rect class="activating" x="468.272" y="2140.000" width="0.000" height="19.000" />
+  <rect class="active" x="468.272" y="2140.000" width="194.507" height="19.000" />
+  <rect class="deactivating" x="662.779" y="2140.000" width="0.000" height="19.000" />
+  <text class="left" x="473.272" y="2154.000">dev-disk-by\x2did-ata\x2dSSDPR\x2dCX400\x2d128_GUS002311\x2dpart1.device</text>
+  <rect class="activating" x="468.273" y="2160.000" width="0.000" height="19.000" />
+  <rect class="active" x="468.273" y="2160.000" width="194.506" height="19.000" />
+  <rect class="deactivating" x="662.779" y="2160.000" width="0.000" height="19.000" />
+  <text class="left" x="473.273" y="2174.000">sys-devices-pci0000:00-0000:00:11.0-ata1-host0-target0:0:0-0:0:0:0-block-sda-sda1.device</text>
+  <rect class="activating" x="472.484" y="2180.000" width="0.000" height="19.000" />
+  <rect class="active" x="472.484" y="2180.000" width="190.296" height="19.000" />
+  <rect class="deactivating" x="662.779" y="2180.000" width="0.000" height="19.000" />
+  <text class="left" x="477.484" y="2194.000">sys-devices-pci0000:00-0000:00:02.0-0000:01:00.1-sound-card1.device</text>
+  <rect class="activating" x="472.488" y="2200.000" width="0.000" height="19.000" />
+  <rect class="active" x="472.488" y="2200.000" width="190.292" height="19.000" />
+  <rect class="deactivating" x="662.779" y="2200.000" width="0.000" height="19.000" />
+  <text class="left" x="477.488" y="2214.000">sound.target</text>
+  <rect class="activating" x="480.919" y="2220.000" width="0.000" height="19.000" />
+  <rect class="active" x="480.919" y="2220.000" width="181.861" height="19.000" />
+  <rect class="deactivating" x="662.779" y="2220.000" width="0.000" height="19.000" />
+  <text class="left" x="485.919" y="2234.000">sys-devices-pci0000:00-0000:00:14.2-sound-card0.device</text>
+  <rect class="activating" x="484.131" y="2240.000" width="0.000" height="19.000" />
+  <rect class="active" x="484.131" y="2240.000" width="178.648" height="19.000" />
+  <rect class="deactivating" x="662.779" y="2240.000" width="0.000" height="19.000" />
+  <text class="left" x="489.131" y="2254.000">local-fs.target</text>
+  <rect class="activating" x="484.240" y="2260.000" width="42.636" height="19.000" />
+  <rect class="active" x="526.876" y="2260.000" width="135.903" height="19.000" />
+  <rect class="deactivating" x="662.779" y="2260.000" width="0.000" height="19.000" />
+  <text class="left" x="489.240" y="2274.000">ldconfig.service (426ms)</text>
+  <rect class="activating" x="484.348" y="2280.000" width="10.041" height="19.000" />
+  <rect class="active" x="494.389" y="2280.000" width="168.391" height="19.000" />
+  <rect class="deactivating" x="662.779" y="2280.000" width="0.000" height="19.000" />
+  <text class="left" x="489.348" y="2294.000">systemd-tmpfiles-setup.service (100ms)</text>
+  <rect class="activating" x="494.511" y="2300.000" width="3.396" height="19.000" />
+  <rect class="active" x="497.907" y="2300.000" width="164.873" height="19.000" />
+  <rect class="deactivating" x="662.779" y="2300.000" width="0.000" height="19.000" />
+  <text class="left" x="499.511" y="2314.000">systemd-journal-catalog-update.service (33ms)</text>
+  <rect class="activating" x="494.659" y="2320.000" width="59.525" height="19.000" />
+  <rect class="active" x="554.185" y="2320.000" width="108.595" height="19.000" />
+  <rect class="deactivating" x="662.779" y="2320.000" width="0.000" height="19.000" />
+  <text class="left" x="499.659" y="2334.000">systemd-timesyncd.service (595ms)</text>
+  <rect class="activating" x="494.846" y="2340.000" width="1.207" height="19.000" />
+  <rect class="active" x="496.053" y="2340.000" width="166.727" height="19.000" />
+  <rect class="deactivating" x="662.779" y="2340.000" width="0.000" height="19.000" />
+  <text class="left" x="499.846" y="2354.000">systemd-update-utmp.service (12ms)</text>
+  <rect class="activating" x="499.570" y="2360.000" width="0.000" height="19.000" />
+  <rect class="active" x="499.570" y="2360.000" width="163.210" height="19.000" />
+  <rect class="deactivating" x="662.779" y="2360.000" width="0.000" height="19.000" />
+  <text class="left" x="504.570" y="2374.000">sys-devices-pci0000:00-0000:00:13.1-usb6-6\x2d2-6\x2d2:1.0-sound-card2.device</text>
+  <rect class="activating" x="527.010" y="2380.000" width="1.776" height="19.000" />
+  <rect class="active" x="528.786" y="2380.000" width="133.993" height="19.000" />
+  <rect class="deactivating" x="662.779" y="2380.000" width="0.000" height="19.000" />
+  <text class="left" x="532.010" y="2394.000">systemd-update-done.service (17ms)</text>
+  <rect class="activating" x="554.204" y="2400.000" width="0.000" height="19.000" />
+  <rect class="active" x="554.204" y="2400.000" width="108.575" height="19.000" />
+  <rect class="deactivating" x="662.779" y="2400.000" width="0.000" height="19.000" />
+  <text class="left" x="559.204" y="2414.000">sysinit.target</text>
+  <rect class="activating" x="554.209" y="2420.000" width="0.000" height="19.000" />
+  <rect class="active" x="554.209" y="2420.000" width="108.571" height="19.000" />
+  <rect class="deactivating" x="662.779" y="2420.000" width="0.000" height="19.000" />
+  <text class="left" x="559.209" y="2434.000">systemd-tmpfiles-clean.timer</text>
+  <rect class="activating" x="554.212" y="2440.000" width="0.000" height="19.000" />
+  <rect class="active" x="554.212" y="2440.000" width="108.568" height="19.000" />
+  <rect class="deactivating" x="662.779" y="2440.000" width="0.000" height="19.000" />
+  <text class="left" x="559.212" y="2454.000">time-set.target</text>
+  <rect class="activating" x="554.213" y="2460.000" width="0.000" height="19.000" />
+  <rect class="active" x="554.213" y="2460.000" width="108.566" height="19.000" />
+  <rect class="deactivating" x="662.779" y="2460.000" width="0.000" height="19.000" />
+  <text class="left" x="559.213" y="2474.000">time-sync.target</text>
+  <rect class="activating" x="554.222" y="2480.000" width="0.000" height="19.000" />
+  <rect class="active" x="554.222" y="2480.000" width="108.558" height="19.000" />
+  <rect class="deactivating" x="662.779" y="2480.000" width="0.000" height="19.000" />
+  <text class="left" x="559.222" y="2494.000">shadow.timer</text>
+  <rect class="activating" x="554.224" y="2500.000" width="0.000" height="19.000" />
+  <rect class="active" x="554.224" y="2500.000" width="108.556" height="19.000" />
+  <rect class="deactivating" x="662.779" y="2500.000" width="0.000" height="19.000" />
+  <text class="left" x="559.224" y="2514.000">timers.target</text>
+  <rect class="activating" x="554.267" y="2520.000" width="0.000" height="19.000" />
+  <rect class="active" x="554.267" y="2520.000" width="108.513" height="19.000" />
+  <rect class="deactivating" x="662.779" y="2520.000" width="0.000" height="19.000" />
+  <text class="left" x="559.267" y="2534.000">dbus.socket</text>
+  <rect class="activating" x="554.269" y="2540.000" width="0.000" height="19.000" />
+  <rect class="active" x="554.269" y="2540.000" width="108.510" height="19.000" />
+  <rect class="deactivating" x="662.779" y="2540.000" width="0.000" height="19.000" />
+  <text class="left" x="559.269" y="2554.000">sockets.target</text>
+  <rect class="activating" x="554.272" y="2560.000" width="0.000" height="19.000" />
+  <rect class="active" x="554.272" y="2560.000" width="108.508" height="19.000" />
+  <rect class="deactivating" x="662.779" y="2560.000" width="0.000" height="19.000" />
+  <text class="left" x="559.272" y="2574.000">basic.target</text>
+  <rect class="activating" x="554.369" y="2580.000" width="0.000" height="19.000" />
+  <rect class="active" x="554.369" y="2580.000" width="108.411" height="19.000" />
+  <rect class="deactivating" x="662.779" y="2580.000" width="0.000" height="19.000" />
+  <text class="left" x="559.369" y="2594.000">dbus.service</text>
+  <rect class="activating" x="554.780" y="2600.000" width="13.499" height="19.000" />
+  <rect class="active" x="568.279" y="2600.000" width="94.500" height="19.000" />
+  <rect class="deactivating" x="662.779" y="2600.000" width="0.000" height="19.000" />
+  <text class="left" x="559.780" y="2614.000">dhcpcd.service (134ms)</text>
+  <rect class="activating" x="554.907" y="2620.000" width="5.045" height="19.000" />
+  <rect class="active" x="559.952" y="2620.000" width="102.828" height="19.000" />
+  <rect class="deactivating" x="662.779" y="2620.000" width="0.000" height="19.000" />
+  <text class="left" x="559.907" y="2634.000">lm_sensors.service (50ms)</text>
+  <rect class="activating" x="555.201" y="2640.000" width="107.431" height="19.000" />
+  <rect class="active" x="662.633" y="2640.000" width="0.147" height="19.000" />
+  <rect class="deactivating" x="662.779" y="2640.000" width="0.000" height="19.000" />
+  <text class="left" x="560.201" y="2654.000">systemd-logind.service (1.074s)</text>
+  <rect class="activating" x="562.129" y="2660.000" width="0.000" height="19.000" />
+  <rect class="active" x="562.129" y="2660.000" width="100.650" height="19.000" />
+  <rect class="deactivating" x="662.779" y="2660.000" width="0.000" height="19.000" />
+  <text class="left" x="567.129" y="2674.000">dev-rfkill.device</text>
+  <rect class="activating" x="562.130" y="2680.000" width="0.000" height="19.000" />
+  <rect class="active" x="562.130" y="2680.000" width="100.649" height="19.000" />
+  <rect class="deactivating" x="662.779" y="2680.000" width="0.000" height="19.000" />
+  <text class="left" x="567.130" y="2694.000">sys-devices-virtual-misc-rfkill.device</text>
+  <rect class="activating" x="562.154" y="2700.000" width="0.000" height="19.000" />
+  <rect class="active" x="562.154" y="2700.000" width="100.626" height="19.000" />
+  <rect class="deactivating" x="662.779" y="2700.000" width="0.000" height="19.000" />
+  <text class="left" x="567.154" y="2714.000">systemd-rfkill.socket</text>
+  <rect class="activating" x="568.298" y="2720.000" width="0.000" height="19.000" />
+  <rect class="active" x="568.298" y="2720.000" width="94.481" height="19.000" />
+  <rect class="deactivating" x="662.779" y="2720.000" width="0.000" height="19.000" />
+  <text class="left" x="573.298" y="2734.000">network.target</text>
+  <rect class="activating" x="568.418" y="2740.000" width="1.212" height="19.000" />
+  <rect class="active" x="569.630" y="2740.000" width="93.149" height="19.000" />
+  <rect class="deactivating" x="662.779" y="2740.000" width="0.000" height="19.000" />
+  <text class="left" x="573.418" y="2754.000">systemd-user-sessions.service (12ms)</text>
+  <rect class="activating" x="569.763" y="2760.000" width="0.000" height="19.000" />
+  <rect class="active" x="569.763" y="2760.000" width="93.016" height="19.000" />
+  <rect class="deactivating" x="662.779" y="2760.000" width="0.000" height="19.000" />
+  <text class="left" x="574.763" y="2774.000">getty.target</text>
+  <rect class="activating" x="662.721" y="2780.000" width="0.000" height="19.000" />
+  <rect class="active" x="662.721" y="2780.000" width="0.058" height="19.000" />
+  <rect class="deactivating" x="662.779" y="2780.000" width="0.000" height="19.000" />
+  <text class="right" x="657.721" y="2794.000">multi-user.target</text>
+  <rect class="activating" x="662.757" y="2800.000" width="0.000" height="19.000" />
+  <rect class="active" x="662.757" y="2800.000" width="0.022" height="19.000" />
+  <rect class="deactivating" x="662.779" y="2800.000" width="0.000" height="19.000" />
+  <text class="right" x="657.757" y="2814.000">graphical.target</text>
 </g>
 <g transform="translate(20,100)">
   <rect class="activating" x="0.000" y="2840.000" width="30.000" height="19.000" />
