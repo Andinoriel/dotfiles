@@ -98,6 +98,12 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+alias dc="docker-compose"
+alias dcd="docker-compose down"
+alias dcr="docker-compose restart"
+alias dcu="docker-compose up"
+alias dcud="docker-compose up -d"
+
 if [ "$(tty)" = "/dev/tty1" ]; then
 	export QT_QPA_PLATFORMTHEME=qt5ct
 	export QT_STYLE_OVERRIDE=kvantum
