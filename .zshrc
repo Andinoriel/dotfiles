@@ -106,7 +106,7 @@ alias dcr="docker-compose restart"
 alias dcu="docker-compose up"
 alias dcud="docker-compose up -d"
 
-alias pacin='pikaur -S'
+alias piin='pikaur -S'
 alias piupg='pikaur -Syu'
 alias pisu='pikaur -Syu --noconfirm'
 
