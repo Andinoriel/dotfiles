@@ -199,7 +199,9 @@ bindsym $mod+g gaps inner current set 0
 bindsym $mod+Shift+g gaps inner current set 16
 
 # scrot
-
 bindsym Print exec "scrot /tmp/screenshot-$(date +%F_%T).png -e 'xclip -selection c -t image/png < $f'"
 bindsym $mod+Print --release exec "scrot -u /tmp/screenshot-$(date +%F_%T).png -e 'xclip -selection c -t image/png < $f'"
 bindsym $mod+Shift+S --release exec "scrot -s /tmp/screenshot-$(date +%F_%T).png -e 'xclip -selection c -t image/png < $f'"
+
+# firefox
+bindsym $mod+B exec "firefox"
