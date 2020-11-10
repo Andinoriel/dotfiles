@@ -122,7 +122,7 @@ label-urgent-padding = 4
 label-urgent-underline = ${colors.grey}
 
 ws-icon-default = 
-ws-icon-0 = 1;
+ws-icon-0 = 1;
 ws-icon-1 = 2;
 ws-icon-2 = 3;
 

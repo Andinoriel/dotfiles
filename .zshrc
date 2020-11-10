@@ -110,6 +110,10 @@ alias piin='pikaur -S'
 alias piupg='pikaur -Syu'
 alias pisu='pikaur -Syu --noconfirm'
 
+alias czsh="code ~/.zshrc"
+alias ci3="code ~/.config/i3/config"
+alias cpolybar="code ~/.config/polybar/config"
+
 if [ "$(tty)" = "/dev/tty1" ]; then
 	export QT_QPA_PLATFORMTHEME=qt5ct
 	export QT_STYLE_OVERRIDE=kvantum

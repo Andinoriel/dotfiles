@@ -9,7 +9,7 @@
 exec --no-startup-id dunst
 exec --no-startup-id setxkbmap us,ru -option 'grp:alt_shift_toggle'
 
-exec_always --no-startup-id feh --bg-scale /home/andinoriel/Pictures/bliss_4k.jpg
+exec_always --no-startup-id feh --bg-scale /home/andinoriel/Pictures/fractal_art_2.jpg
 exec_always --no-startup-id picom --config ~/.config/picom/picom.conf
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
