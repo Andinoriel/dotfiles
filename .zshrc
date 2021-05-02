@@ -109,6 +109,8 @@ alias dcud="docker-compose up -d"
 alias piin='pikaur -S'
 alias piupg='pikaur -Syu'
 alias pisu='pikaur -Syu --noconfirm'
+alias upr='pisu; reboot'
+alias ups='pisu; poweroff'
 
 alias czsh="code ~/.zshrc"
 alias ci3="code ~/.config/i3/config"
@@ -119,3 +121,6 @@ if [ "$(tty)" = "/dev/tty1" ]; then
 	export QT_STYLE_OVERRIDE=kvantum
 	startx
 fi
+
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

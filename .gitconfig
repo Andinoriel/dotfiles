@@ -5,3 +5,5 @@
 	editor = code --wait
 [pull]
 	ff = only
+[init]
+	defaultBranch = main
