@@ -4,7 +4,7 @@ data_process() {
   mode=$1
   FROM=$2
   TO=$3
-  
+
   if [[ "$mode" == "load" ]];
   then
     rsync --recursive $HOME/$FROM $PWD/$TO
@@ -46,6 +46,6 @@ then
   systemd-analyze plot > graph.svf
   pacman -Qe > package-list.txt
 else
-  echo "Usage: $0 [load|install]" >&2
-  exit 1
+    echo "Usage: $0 [load|install]" >&2
+    exit 1
 fi
